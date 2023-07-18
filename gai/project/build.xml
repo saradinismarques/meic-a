@@ -1,0 +1,30 @@
+<project name="MTSPSimulation" default="run" basedir=".">
+  <!-- Define properties -->
+  <property name="src.dir" value="src" />
+  <property name="build.dir" value="build" />
+  <property name="main.class" value="jade.Boot" />
+  <property name="jade.lib" value="jade/lib/jade.jar" />
+  <property name="jgrapht.lib" value="jgrapht/lib/jgrapht-core-1.4.0.jar" />
+  <!-- for Java >= 11 -->
+  <!--  <property name="jgrapht.lib" value="jgrapht/lib/jgrapht-core-1.5.2.jar" /> -->
+  
+
+  <!-- Define targets -->
+  <target name="init">
+    <mkdir dir="${build.dir}" />
+  </target>
+
+  <target name="compile" depends="init">
+    <javac srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="false">
+      <classpath location="${jgrapht.lib}" />
+      <classpath location="${jade.lib}" />
+    </javac>
+  </target>
+
+  <target name="run" depends="compile">
+    <java classpath="${jade.lib};${jgrapht.lib};build" classname="${main.class}" fork="true">
+      <arg value="-gui" />
+      <arg value="mtsp.MyAgent;mtsp.SalesmanAgent;mtsp.MTSPSimulation" />
+    </java>
+  </target>
+</project>
