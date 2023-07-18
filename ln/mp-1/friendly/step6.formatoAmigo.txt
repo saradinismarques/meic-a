@@ -1,0 +1,28 @@
+0 1 vowel = 
+1 2 H eps
+2 3 consonant = 1
+2 3 0 =
+2 3 Q K
+2 1 vowel =
+2 4 C eps
+2 5 P eps
+2 6 S X
+0 4 C eps
+4 3 K =
+0 5 P eps
+5 3 H F
+0 3 Q K
+0 6 S X
+6 3 H =
+6 7 I =
+7 3 [OA] =
+0 3 [A-Z0] = 1
+3 3 [A-Z0] = 1
+3 1 vowel =
+3 4 C eps  
+3 5 P eps
+3 6 S X
+3 3 Q K
+2
+3
+

@@ -1,0 +1,130 @@
+0	1	A	eps
+0	2	B	eps
+0	3	D	eps
+0	4	E	eps
+0	5	F	eps
+0	6	G	eps
+0	7	H	eps
+0	8	I	eps
+0	9	J	eps
+0	10	K	eps
+0	11	L	eps
+0	12	M	eps
+0	13	N	eps
+0	14	O	eps
+0	15	P	eps
+0	16	Q	eps
+0	17	R	eps
+0	18	S	eps
+0	19	T	eps
+0	20	U	eps
+0	21	V	eps
+0	22	W	eps
+0	23	X	eps
+0	24	Y	eps
+0	25	Z	eps
+0	26	A	A	1
+0	26	E	E	1
+0	26	I	I	1
+0	26	O	O	1
+0	26	U	U	1
+0	26	B	B	1
+0	26	C	C	1
+0	26	D	D	1
+0	26	F	F	1
+0	26	G	G	1
+0	26	H	H	1
+0	26	J	J	1
+0	26	K	K	1
+0	26	L	L	1
+0	26	M	M	1
+0	26	N	N	1
+0	26	P	P	1
+0	26	Q	Q	1
+0	26	R	R	1
+0	26	S	S	1
+0	26	T	T	1
+0	26	V	V	1
+0	26	W	W	1
+0	26	X	X	1
+0	26	Y	Y	1
+0	26	Z	Z	1
+0	26	0	0	1
+1	26	A	A
+2	26	B	B
+3	26	D	D
+4	26	E	E
+5	26	F	F
+6	26	G	G
+7	26	H	H
+8	26	I	I
+9	26	J	J
+10	26	K	K
+11	26	L	L
+12	26	M	M
+13	26	N	N
+14	26	O	O
+15	26	P	P
+16	26	Q	Q
+17	26	R	R
+18	26	S	S
+19	26	T	T
+20	26	U	U
+21	26	V	V
+22	26	W	W
+23	26	X	X
+24	26	Y	Y
+25	26	Z	Z
+26	1	A	eps
+26	2	B	eps
+26	3	D	eps
+26	4	E	eps
+26	5	F	eps
+26	6	G	eps
+26	7	H	eps
+26	8	I	eps
+26	9	J	eps
+26	10	K	eps
+26	11	L	eps
+26	12	M	eps
+26	13	N	eps
+26	14	O	eps
+26	15	P	eps
+26	16	Q	eps
+26	17	R	eps
+26	18	S	eps
+26	19	T	eps
+26	20	U	eps
+26	21	V	eps
+26	22	W	eps
+26	23	X	eps
+26	24	Y	eps
+26	25	Z	eps
+26	26	A	A	1
+26	26	E	E	1
+26	26	I	I	1
+26	26	O	O	1
+26	26	U	U	1
+26	26	B	B	1
+26	26	C	C	1
+26	26	D	D	1
+26	26	F	F	1
+26	26	G	G	1
+26	26	H	H	1
+26	26	J	J	1
+26	26	K	K	1
+26	26	L	L	1
+26	26	M	M	1
+26	26	N	N	1
+26	26	P	P	1
+26	26	Q	Q	1
+26	26	R	R	1
+26	26	S	S	1
+26	26	T	T	1
+26	26	V	V	1
+26	26	W	W	1
+26	26	X	X	1
+26	26	Y	Y	1
+26	26	Z	Z	1
+26	26	0	0	1
+26

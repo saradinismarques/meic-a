@@ -1,0 +1,27 @@
+MP1
+
+Sara Marques (93342): 100%
+
+Breve descrição da lógica utilizada em cada um dos transducers:
+
+step1: tem se um estado inicial que transita para um estado intermédio consoante a letra que encontra na fita e apaga-a (caso não seja um C) se depois encontrar a mesma letra, desta vez mantendo-a e transitando para o estado terminal. Este estado está em loop até ao fim da palavra e vai procurando por duas letras seguidas apagando a primeira por toda a palavra.
+
+step2: tem um estado inicial que verifica se a palavra começa por KN, GN, PN, AE, WR e nesse caso elimina a primeira letra, depois vai para um estado terminal que está em loop até ao fim da palavra onde verifica se a palavra terminal em MB e em caso afirmativo elimina o B.
+
+step3: tem um estado inicial que verifica se a palavra começa com SCH, CH, CIA, CI, CE, CY ou C realizando transformações em caso afirmativo. Depois transita para um estado terminal que está em loop até ao fim da palavra e vai procurando pelas combinações de letras anteriores e realizando as transformações por toda a palavra.
+
+step4: tem um estado inicial que verifica se a palavra começa com DGE, DGY, DGI, ou D realizando transformações em caso afirmativo. Depois transita para um estado terminal que está em loop até ao fim da palavra e vai procurando pelas combinações de letras anteriores e realizando as transformações por toda a palavra.
+
+step5: tem um estado inicial que verifica se a palavra começa com GH e o H não está no fim apagando o G em caso afirmativo. Depois transita para um estado terminal que está em loop e verifica se a palavra acaba com GN ou GNED apagando o G em caso afirmativo e acabando noutro estado terminal.
+
+step6: tem um estado inicial que verifica se a palavra começa com vogal-H-consoante ou fim da palavra, CK, PH, Q, SH, SIO ou SIA realizando transformações em caso afirmativo. Depois transita para um estado terminal que está em loop até ao fim da palavra e vai procurando pelas combinações de letras anteriores e realizando as transformações por toda a palavra.
+
+step7: tem um estado inicial que verifica se a palavra começa com TIA, TIO, TH, TCH, V ou WH realizando transformações em caso afirmativo. Depois transita para um estado terminal que está em loop até ao fim da palavra e vai procurando pelas combinações de letras anteriores e realizando as transformações em toda a palavra, exceto WH que só nos interessa se tiver no início da palavra.
+
+step8: tem um estado inicial que verifica se a palavra começa com X, W-consoante ou fim da palavra, Y-consoante ou fim da palavra ou Z realizando transformações em caso afirmativo. Depois transita para um estado terminal que está em loop até ao fim da palavra e vai procurando pelas combinações de letras anteriores e realizando as transformações por toda a palavra, exceto se encontrar um X que, agora como não está no início da palavra, sofre uma transformação diferente.
+
+step9: tem um estado inicial que lê uma letra qualquer e transita para o estado terminal que está em loop e sempre que encontra uma vogal apaga-a e se for outra letra mantém-a.
+
+metaphoneLN: este transducer consiste na composição de todos os steps definidos anteriormente, ou seja, chamou-se step10 ao transducer que resulta da composição do step1 com o step2 e depois ao compor-se este com o step3 obtém-se o transducer step11 e sempre assim até chegar à composição com o step9 que resulta no metaphoneLN. Este transducer realiza o algoritmo Metaphone numa palavra, que é um algoritmo fonético cujo objetivo é associar uma palavra a um único conjunto de letras que soem de forma semelhante.
+
+invertMetaphoneLN: este transducer resulta simplesmente da inversão do transducer metaphoneLN. Tem como objetivo portanto a operação inversa ao anterior, ou seja, associar um conjunto de letras a uma palavra que soa semelhante.
