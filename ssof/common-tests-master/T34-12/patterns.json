@@ -1,0 +1,17 @@
+[
+    {
+        "vulnerability": "SwitchNoImplicit",
+        "sources": ["source1", "source2", "source3"],
+        "sanitizers": ["s"],
+        "sinks": ["sink1"],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "SwitchImplicit",
+        "sources": ["source_implicit1", "source_implicit2"],
+        "sanitizers": ["s"],
+        "sinks": ["sink1"],
+        "implicit": "yes"
+    }
+]
+

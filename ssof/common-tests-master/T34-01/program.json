@@ -1,0 +1,152 @@
+[
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 5
+        },
+        "cond": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "parts": [
+                        "d"
+                    ]
+                },
+                "args": []
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "name": "a"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_FuncCall",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "name": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 4,
+                                "endLine": 4
+                            },
+                            "parts": [
+                                "sanitize"
+                            ]
+                        },
+                        "args": [
+                            {
+                                "nodeType": "Arg",
+                                "attributes": {
+                                    "startLine": 4,
+                                    "endLine": 4
+                                },
+                                "name": null,
+                                "value": {
+                                    "nodeType": "Expr_Variable",
+                                    "attributes": {
+                                        "startLine": 4,
+                                        "endLine": 4
+                                    },
+                                    "name": "a"
+                                },
+                                "byRef": false,
+                                "unpack": false
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 6,
+            "endLine": 6
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 6,
+                "endLine": 6
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "name": "sink"
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "name": "a"
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 9,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ tip: Cuidado com ele",
+                    "line": 7,
+                    "filePos": 83,
+                    "tokenPos": 35,
+                    "endLine": 7,
+                    "endFilePos": 105,
+                    "endTokenPos": 35
+                }
+            ],
+            "endLine": 9
+        }
+    }
+]

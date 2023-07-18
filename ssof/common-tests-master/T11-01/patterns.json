@@ -1,0 +1,35 @@
+[
+    {
+        "vulnerability": "Explicit flow in For Statement",
+        "sources": [
+            "source"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$sink"
+        ],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "Implicit flow in For Statement",
+        "sources": [
+            "$source1"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$sink1"
+        ],
+        "implicit": "yes"
+    },
+    {
+        "vulnerability": "Explicit flow in condition in For Statement",
+        "sources": [
+            "$source2"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$sink2"
+        ],
+        "implicit": "no"
+    }
+]

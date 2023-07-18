@@ -1,0 +1,510 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "b"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3,
+                    "rawValue": "123",
+                    "kind": 10
+                },
+                "value": 123
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_If",
+        "attributes": {
+            "startLine": 5,
+            "endLine": 7
+        },
+        "cond": {
+            "nodeType": "Expr_BinaryOp_Smaller",
+            "attributes": {
+                "startLine": 5,
+                "endLine": 5
+            },
+            "left": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            },
+            "right": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5,
+                    "rawValue": "2",
+                    "kind": 10
+                },
+                "value": 2
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 6,
+                        "endLine": 6
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "name": "lt"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "name": "b"
+                    }
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null
+    },
+    {
+        "nodeType": "Stmt_If",
+        "attributes": {
+            "startLine": 9,
+            "endLine": 11
+        },
+        "cond": {
+            "nodeType": "Expr_BinaryOp_SmallerOrEqual",
+            "attributes": {
+                "startLine": 9,
+                "endLine": 9
+            },
+            "left": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9,
+                    "rawValue": "2",
+                    "kind": 10
+                },
+                "value": 2
+            },
+            "right": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9,
+                    "rawValue": "2",
+                    "kind": 10
+                },
+                "value": 2
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 10,
+                    "endLine": 10
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 10,
+                        "endLine": 10
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        },
+                        "name": "le"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        },
+                        "name": "b"
+                    }
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null
+    },
+    {
+        "nodeType": "Stmt_If",
+        "attributes": {
+            "startLine": 13,
+            "endLine": 15
+        },
+        "cond": {
+            "nodeType": "Expr_BinaryOp_Greater",
+            "attributes": {
+                "startLine": 13,
+                "endLine": 13
+            },
+            "left": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 13,
+                    "endLine": 13,
+                    "rawValue": "2",
+                    "kind": 10
+                },
+                "value": 2
+            },
+            "right": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 13,
+                    "endLine": 13,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 14,
+                    "endLine": 14
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 14,
+                        "endLine": 14
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 14,
+                            "endLine": 14
+                        },
+                        "name": "gt"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 14,
+                            "endLine": 14
+                        },
+                        "name": "b"
+                    }
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null
+    },
+    {
+        "nodeType": "Stmt_If",
+        "attributes": {
+            "startLine": 17,
+            "endLine": 19
+        },
+        "cond": {
+            "nodeType": "Expr_BinaryOp_GreaterOrEqual",
+            "attributes": {
+                "startLine": 17,
+                "endLine": 17
+            },
+            "left": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 17,
+                    "endLine": 17,
+                    "rawValue": "2",
+                    "kind": 10
+                },
+                "value": 2
+            },
+            "right": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 17,
+                    "endLine": 17,
+                    "rawValue": "2",
+                    "kind": 10
+                },
+                "value": 2
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 18,
+                    "endLine": 18
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 18,
+                        "endLine": 18
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 18,
+                            "endLine": 18
+                        },
+                        "name": "ge"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 18,
+                            "endLine": 18
+                        },
+                        "name": "b"
+                    }
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null
+    },
+    {
+        "nodeType": "Stmt_If",
+        "attributes": {
+            "startLine": 21,
+            "endLine": 23
+        },
+        "cond": {
+            "nodeType": "Expr_BinaryOp_Identical",
+            "attributes": {
+                "startLine": 21,
+                "endLine": 21
+            },
+            "left": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 21,
+                    "endLine": 21,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            },
+            "right": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 21,
+                    "endLine": 21,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 22,
+                    "endLine": 22
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 22,
+                        "endLine": 22
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 22,
+                            "endLine": 22
+                        },
+                        "name": "eq"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 22,
+                            "endLine": 22
+                        },
+                        "name": "b"
+                    }
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null
+    },
+    {
+        "nodeType": "Stmt_If",
+        "attributes": {
+            "startLine": 25,
+            "endLine": 27
+        },
+        "cond": {
+            "nodeType": "Expr_BinaryOp_NotIdentical",
+            "attributes": {
+                "startLine": 25,
+                "endLine": 25
+            },
+            "left": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 25,
+                    "endLine": 25,
+                    "rawValue": "2",
+                    "kind": 10
+                },
+                "value": 2
+            },
+            "right": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 25,
+                    "endLine": 25,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 26,
+                    "endLine": 26
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 26,
+                        "endLine": 26
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 26,
+                            "endLine": 26
+                        },
+                        "name": "ne"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 26,
+                            "endLine": 26
+                        },
+                        "name": "b"
+                    }
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null
+    },
+    {
+        "nodeType": "Stmt_If",
+        "attributes": {
+            "startLine": 29,
+            "endLine": 31
+        },
+        "cond": {
+            "nodeType": "Expr_BinaryOp_Mod",
+            "attributes": {
+                "startLine": 29,
+                "endLine": 29
+            },
+            "left": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 29,
+                    "endLine": 29,
+                    "rawValue": "3",
+                    "kind": 10
+                },
+                "value": 3
+            },
+            "right": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 29,
+                    "endLine": 29,
+                    "rawValue": "2",
+                    "kind": 10
+                },
+                "value": 2
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 30,
+                    "endLine": 30
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 30,
+                        "endLine": 30
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 30,
+                            "endLine": 30
+                        },
+                        "name": "mod"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 30,
+                            "endLine": 30
+                        },
+                        "name": "b"
+                    }
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null
+    }
+]

@@ -1,0 +1,323 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "parts": [
+                        "b"
+                    ]
+                },
+                "args": [
+                    {
+                        "nodeType": "Arg",
+                        "attributes": {
+                            "startLine": 3,
+                            "endLine": 3
+                        },
+                        "name": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 3,
+                                "endLine": 3,
+                                "kind": 1,
+                                "rawValue": "'username'"
+                            },
+                            "value": "username"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 4,
+            "endLine": 8
+        },
+        "cond": {
+            "nodeType": "Expr_BinaryOp_Equal",
+            "attributes": {
+                "startLine": 4,
+                "endLine": 4
+            },
+            "left": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "name": "e"
+            },
+            "right": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4,
+                    "kind": 2,
+                    "rawValue": "\"\""
+                },
+                "value": ""
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        },
+                        "name": "c"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_FuncCall",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        },
+                        "name": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 5,
+                                "endLine": 5
+                            },
+                            "parts": [
+                                "d"
+                            ]
+                        },
+                        "args": [
+                            {
+                                "nodeType": "Arg",
+                                "attributes": {
+                                    "startLine": 5,
+                                    "endLine": 5
+                                },
+                                "name": null,
+                                "value": {
+                                    "nodeType": "Expr_Variable",
+                                    "attributes": {
+                                        "startLine": 5,
+                                        "endLine": 5
+                                    },
+                                    "name": "a"
+                                },
+                                "byRef": false,
+                                "unpack": false
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 6,
+                        "endLine": 6
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "name": "e"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_FuncCall",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "name": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6
+                            },
+                            "parts": [
+                                "f"
+                            ]
+                        },
+                        "args": [
+                            {
+                                "nodeType": "Arg",
+                                "attributes": {
+                                    "startLine": 6,
+                                    "endLine": 6
+                                },
+                                "name": null,
+                                "value": {
+                                    "nodeType": "Expr_Variable",
+                                    "attributes": {
+                                        "startLine": 6,
+                                        "endLine": 6
+                                    },
+                                    "name": "c"
+                                },
+                                "byRef": false,
+                                "unpack": false
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        },
+                        "name": "a"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        },
+                        "name": "e"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 9,
+            "endLine": 9
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 9,
+                "endLine": 9
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9
+                },
+                "name": "g"
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 9,
+                        "endLine": 9
+                    },
+                    "parts": [
+                        "h"
+                    ]
+                },
+                "args": [
+                    {
+                        "nodeType": "Arg",
+                        "attributes": {
+                            "startLine": 9,
+                            "endLine": 9
+                        },
+                        "name": null,
+                        "value": {
+                            "nodeType": "Expr_Variable",
+                            "attributes": {
+                                "startLine": 9,
+                                "endLine": 9
+                            },
+                            "name": "a"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 13,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ tip: sources, sanitizers and sinks can appear inside loops",
+                    "line": 11,
+                    "filePos": 138,
+                    "tokenPos": 63,
+                    "endLine": 11,
+                    "endFilePos": 198,
+                    "endTokenPos": 63
+                }
+            ],
+            "endLine": 13
+        }
+    }
+]

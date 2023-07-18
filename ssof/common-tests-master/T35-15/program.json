@@ -1,0 +1,33 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 2,
+            "endLine": 2
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "name": "sink"
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "name": "sink"
+            }
+        }
+    }
+]
+

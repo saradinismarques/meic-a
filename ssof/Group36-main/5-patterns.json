@@ -1,0 +1,37 @@
+[
+    {
+        "vulnerability": "SQL injection MySQLi",
+        "sources": ["$_GET", "$_POST", "$_COOKIE", "$_SERVER"],
+        "sanitizers": ["mysql_escape_string", "mysql_real_escape_string"],
+        "sinks": ["mysql_query", "mysql_unbuffered_query","mysql_db_query", "mysqli_multi_query", "mysqli_real_query", "mysqli_select_db"],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "SQL injection Postgres",
+        "sources": ["$_GET", "$_POST", "$_COOKIE", "$_SERVER"],
+        "sanitizers": ["pg_escape_string", "pg_escape_bytea", "pg_escape_identifier", "pg_escape_literal"],
+        "sinks": ["pg_query", "pg_send_query", "pg_query_params", "pg_select"],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "XSS",
+        "sources": ["$_GET", "$_POST", "$_COOKIE", "$_SERVER"],
+        "sanitizers": ["htmlspecialchars", "htmlentities", "strip_tags", "addslashes", "filter_var"],
+        "sinks": ["echo", "print", "printf", "print_r"],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "PHP code injection",
+        "sources": ["$_GET", "$_POST", "$_COOKIE", "$_SERVER"],
+        "sanitizers": ["escapeshellcmd","escapeshellarg", "filter_var"],
+        "sinks": ["eval", "assert", "include"],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "Shell command injection",
+        "sources": ["$_GET", "$_POST", "$_COOKIE", "$_SERVER"],
+        "sanitizers": ["escapeshellcmd","escapeshellarg", "filter_var"],
+        "sinks": ["exec","system", "assert", "eval","shell_exec", "passthru"],
+        "implicit": "no"
+    }
+]

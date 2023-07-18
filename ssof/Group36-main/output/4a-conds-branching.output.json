@@ -1,0 +1,51 @@
+[
+    {
+        "vulnerability": "A",
+        "source": "f",
+        "sink": "e",
+        "sanitized flows": [],
+        "unsanitized flows": "yes"
+    },
+    {
+        "vulnerability": "A",
+        "source": "$a",
+        "sink": "e",
+        "sanitized flows": [],
+        "unsanitized flows": "yes"
+    },
+    {
+        "vulnerability": "A",
+        "source": "$c",
+        "sink": "e",
+        "sanitized flows": [],
+        "unsanitized flows": "yes"
+    },
+    {
+        "vulnerability": "B",
+        "source": "d",
+        "sink": "$c",
+        "sanitized flows": [],
+        "unsanitized flows": "yes"
+    },
+    {
+        "vulnerability": "B",
+        "source": "$a",
+        "sink": "e",
+        "sanitized flows": [],
+        "unsanitized flows": "yes"
+    },
+    {
+        "vulnerability": "B",
+        "source": "d",
+        "sink": "e",
+        "sanitized flows": [],
+        "unsanitized flows": "yes"
+    },
+    {
+        "vulnerability": "B",
+        "source": "$c",
+        "sink": "e",
+        "sanitized flows": [],
+        "unsanitized flows": "yes"
+    }
+]

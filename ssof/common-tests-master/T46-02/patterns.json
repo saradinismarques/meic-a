@@ -1,0 +1,9 @@
+[
+    {
+        "vulnerability": "Nested While Break",
+        "sources": ["source1", "source2", "source3"],
+        "sanitizers": ["san"],
+        "sinks": ["sink1"],
+        "implicit": "yes"
+    }
+]

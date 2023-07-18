@@ -1,0 +1,34 @@
+[
+    {
+        "vulnerability": "Order of evaluation matters",
+        "source": "source2",
+        "sink": "$sink1",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Order of evaluation matters",
+        "source": "source1",
+        "sink": "$sink1",
+        "unsanitized flows": "no",
+        "sanitized flows": [
+            [
+                "sanitize"
+            ]
+        ]
+    },
+    {
+        "vulnerability": "Condition is always the last to be evaluated v1",
+        "source": "source4",
+        "sink": "$sink3",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Condition is always the last to be evaluated v2",
+        "source": "source5",
+        "sink": "$sink4",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

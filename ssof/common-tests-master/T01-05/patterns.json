@@ -1,0 +1,9 @@
+[
+    {
+		"vulnerability": "Echo",
+		"sources": ["$v"],
+		"sanitizers": [],
+		"sinks": ["echo"],
+		"implicit": "no"
+	}
+]

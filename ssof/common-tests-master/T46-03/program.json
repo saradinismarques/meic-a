@@ -1,0 +1,276 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 2,
+            "endLine": 2
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2,
+                    "kind": 2,
+                    "rawValue": "\"\""
+                },
+                "value": ""
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "b"
+            },
+            "expr": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3,
+                    "kind": 2,
+                    "rawValue": "\"\""
+                },
+                "value": ""
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 4,
+            "endLine": 11
+        },
+        "cond": {
+            "nodeType": "Expr_FuncCall",
+            "attributes": {
+                "startLine": 4,
+                "endLine": 4
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "parts": [
+                    "cond"
+                ]
+            },
+            "args": []
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        },
+                        "name": "a"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        },
+                        "name": "b"
+                    }
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 6,
+                        "endLine": 6
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "name": "b"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_FuncCall",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "name": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6
+                            },
+                            "parts": [
+                                "source1"
+                            ]
+                        },
+                        "args": []
+                    }
+                }
+            },
+            {
+                "nodeType": "Stmt_If",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 9
+                },
+                "cond": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        },
+                        "parts": [
+                            "t"
+                        ]
+                    },
+                    "args": []
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Continue",
+                        "attributes": {
+                            "startLine": 8,
+                            "endLine": 8
+                        },
+                        "num": null
+                    }
+                ],
+                "elseifs": [],
+                "else": null
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 10,
+                    "endLine": 10
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 10,
+                        "endLine": 10
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        },
+                        "name": "b"
+                    },
+                    "expr": {
+                        "nodeType": "Scalar_String",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10,
+                            "kind": 2,
+                            "rawValue": "\"\""
+                        },
+                        "value": ""
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 12,
+            "endLine": 12
+        },
+        "expr": {
+            "nodeType": "Expr_FuncCall",
+            "attributes": {
+                "startLine": 12,
+                "endLine": 12
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 12,
+                    "endLine": 12
+                },
+                "parts": [
+                    "sink1"
+                ]
+            },
+            "args": [
+                {
+                    "nodeType": "Arg",
+                    "attributes": {
+                        "startLine": 12,
+                        "endLine": 12
+                    },
+                    "name": null,
+                    "value": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 12,
+                            "endLine": 12
+                        },
+                        "name": "a"
+                    },
+                    "byRef": false,
+                    "unpack": false
+                }
+            ]
+        }
+    }
+]

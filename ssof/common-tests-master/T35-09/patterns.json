@@ -1,0 +1,59 @@
+[
+	{
+		"vulnerability": "Bitwise operator",
+		"sources": ["$_src"],
+		"sanitizers": [],
+		"sinks": ["$S1"],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "Boolean not",
+		"sources": ["$_src"],
+		"sanitizers": [],
+		"sinks": ["$S2"],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "Post increment",
+		"sources": ["$_src"],
+		"sanitizers": [],
+		"sinks": ["$S3"],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "Pre increment",
+		"sources": ["$_src"],
+		"sanitizers": [],
+		"sinks": ["$S4"],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "Post decrement",
+		"sources": ["$_src"],
+		"sanitizers": [],
+		"sinks": ["$S5"],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "Pre decrement",
+		"sources": ["$_src"],
+		"sanitizers": [],
+		"sinks": ["$S6"],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "Array dim fetch",
+		"sources": ["$_GET"],
+		"sanitizers": [],
+		"sinks": ["$S7"],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "Assign op",
+		"sources": ["$_src"],
+		"sanitizers": [],
+		"sinks": ["$S8"],
+		"implicit": "no"
+	}
+]
+

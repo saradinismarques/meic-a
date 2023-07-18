@@ -1,0 +1,232 @@
+[
+    {
+        "nodeType": "Stmt_For",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 6
+        },
+        "init": [
+            {
+                "nodeType": "Expr_Assign",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "i"
+                },
+                "expr": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3,
+                        "rawValue": "1",
+                        "kind": 10
+                    },
+                    "value": 1
+                }
+            }
+        ],
+        "cond": [
+            {
+                "nodeType": "Expr_BinaryOp_Smaller",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "i"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3,
+                        "rawValue": "0",
+                        "kind": 10
+                    },
+                    "value": 0
+                }
+            },
+            {
+                "nodeType": "Expr_BinaryOp_SmallerOrEqual",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "i"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3,
+                        "rawValue": "10",
+                        "kind": 10
+                    },
+                    "value": 10
+                }
+            }
+        ],
+        "loop": [
+            {
+                "nodeType": "Expr_AssignOp_Plus",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "i"
+                },
+                "expr": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "source"
+                }
+            }
+        ],
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 4,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ increment leads to implicit flow ",
+                            "line": 3,
+                            "filePos": 58,
+                            "tokenPos": 34,
+                            "endLine": 3,
+                            "endFilePos": 93,
+                            "endTokenPos": 34
+                        }
+                    ],
+                    "endLine": 4
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 4,
+                        "comments": [
+                            {
+                                "nodeType": "Comment",
+                                "text": "\/\/ increment leads to implicit flow ",
+                                "line": 3,
+                                "filePos": 58,
+                                "tokenPos": 34,
+                                "endLine": 3,
+                                "endFilePos": 93,
+                                "endTokenPos": 34
+                            }
+                        ],
+                        "endLine": 4
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 4,
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/ increment leads to implicit flow ",
+                                    "line": 3,
+                                    "filePos": 58,
+                                    "tokenPos": 34,
+                                    "endLine": 3,
+                                    "endFilePos": 93,
+                                    "endTokenPos": 34
+                                }
+                            ],
+                            "endLine": 4
+                        },
+                        "name": "sink1"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "name": "i"
+                    }
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        },
+                        "name": "sink2"
+                    },
+                    "expr": {
+                        "nodeType": "Scalar_String",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5,
+                            "kind": 2,
+                            "rawValue": "\"\""
+                        },
+                        "value": ""
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 9,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ for statement",
+                    "line": 8,
+                    "filePos": 148,
+                    "tokenPos": 52,
+                    "endLine": 8,
+                    "endFilePos": 163,
+                    "endTokenPos": 52
+                }
+            ],
+            "endLine": 9
+        }
+    }
+]

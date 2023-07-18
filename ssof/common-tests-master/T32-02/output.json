@@ -1,0 +1,9 @@
+[
+    {
+        "vulnerability": "SQLi",
+        "source": "GET_CALL",
+        "sink": "mysql_query",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "vulnerability": "Assign in echo function",
+        "source": "$source",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Echo can be sink",
+        "source": "$source",
+        "sink": "echo",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Echo can be sink",
+        "source": "$source1",
+        "sink": "echo",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

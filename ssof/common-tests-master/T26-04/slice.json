@@ -1,0 +1,96 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 2,
+            "endLine": 2
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2
+                    },
+                    "parts": [
+                        "b"
+                    ]
+                },
+                "args": []
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Echo",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "exprs": [
+            {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "a"
+            },
+            {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "parts": [
+                        "c"
+                    ]
+                },
+                "args": [
+                    {
+                        "nodeType": "Arg",
+                        "attributes": {
+                            "startLine": 3,
+                            "endLine": 3
+                        },
+                        "name": null,
+                        "value": {
+                            "nodeType": "Expr_Variable",
+                            "attributes": {
+                                "startLine": 3,
+                                "endLine": 3
+                            },
+                            "name": "a"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            }
+        ]
+    }
+]

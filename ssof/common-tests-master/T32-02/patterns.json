@@ -1,0 +1,13 @@
+[
+    {
+        "vulnerability": "SQLi",
+
+        "sources": ["GET_CALL"],
+
+        "sanitizers": [],
+
+        "sinks": ["mysql_query"],
+
+        "implicit": "no"
+    }
+]

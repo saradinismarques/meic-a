@@ -1,0 +1,125 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_FuncCall",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "parts": [
+                    "z"
+                ]
+            },
+            "args": [
+                {
+                    "nodeType": "Arg",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": null,
+                    "value": {
+                        "nodeType": "Expr_FuncCall",
+                        "attributes": {
+                            "startLine": 3,
+                            "endLine": 3
+                        },
+                        "name": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 3,
+                                "endLine": 3
+                            },
+                            "parts": [
+                                "t"
+                            ]
+                        },
+                        "args": [
+                            {
+                                "nodeType": "Arg",
+                                "attributes": {
+                                    "startLine": 3,
+                                    "endLine": 3
+                                },
+                                "name": null,
+                                "value": {
+                                    "nodeType": "Expr_FuncCall",
+                                    "attributes": {
+                                        "startLine": 3,
+                                        "endLine": 3
+                                    },
+                                    "name": {
+                                        "nodeType": "Name",
+                                        "attributes": {
+                                            "startLine": 3,
+                                            "endLine": 3
+                                        },
+                                        "parts": [
+                                            "a"
+                                        ]
+                                    },
+                                    "args": [
+                                        {
+                                            "nodeType": "Arg",
+                                            "attributes": {
+                                                "startLine": 3,
+                                                "endLine": 3
+                                            },
+                                            "name": null,
+                                            "value": {
+                                                "nodeType": "Scalar_String",
+                                                "attributes": {
+                                                    "startLine": 3,
+                                                    "endLine": 3,
+                                                    "kind": 1,
+                                                    "rawValue": "'username'"
+                                                },
+                                                "value": "username"
+                                            },
+                                            "byRef": false,
+                                            "unpack": false
+                                        }
+                                    ]
+                                },
+                                "byRef": false,
+                                "unpack": false
+                            }
+                        ]
+                    },
+                    "byRef": false,
+                    "unpack": false
+                }
+            ]
+        }
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 6,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ tip: as in any expression, sinks, sanitizers and sources can appear as each other's arguments",
+                    "line": 5,
+                    "filePos": 37,
+                    "tokenPos": 14,
+                    "endLine": 5,
+                    "endFilePos": 132,
+                    "endTokenPos": 14
+                }
+            ],
+            "endLine": 7
+        }
+    }
+]

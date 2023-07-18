@@ -1,0 +1,59 @@
+[
+    {
+        "vulnerability": "A",
+        "sources": [
+            "source_A"
+        ],
+        "sanitizers": [
+            "s"
+        ],
+        "sinks": [
+            "$sink"
+        ],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "B",
+        "sources": [
+            "$source_B"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$sink"
+        ],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "C",
+        "sources": [
+            "source_C"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$sink"
+        ],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "D",
+        "sources": [
+            "$cond2"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$sink"
+        ],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "E",
+        "sources": [
+            "$cond2"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$sink"
+        ],
+        "implicit": "yes"
+    }
+]

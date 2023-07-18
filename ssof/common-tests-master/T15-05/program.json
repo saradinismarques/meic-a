@@ -1,0 +1,66 @@
+[
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 2,
+            "endLine": 5
+        },
+        "cond": {
+            "nodeType": "Expr_ConstFetch",
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "parts": [
+                    "true"
+                ]
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Continue",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "num": null
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "name": "a"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "name": "b"
+                    }
+                }
+            }
+        ]
+    }
+]

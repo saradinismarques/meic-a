@@ -1,0 +1,89 @@
+[
+    {
+        "nodeType": "Stmt_Echo",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "exprs": [
+            {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "a"
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Echo",
+        "attributes": {
+            "startLine": 4,
+            "endLine": 4
+        },
+        "exprs": [
+            {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4,
+                    "kind": 2,
+                    "rawValue": "\"Hello Word!\""
+                },
+                "value": "Hello Word!"
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Echo",
+        "attributes": {
+            "startLine": 5,
+            "endLine": 5
+        },
+        "exprs": [
+            {
+                "nodeType": "Expr_BinaryOp_Plus",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "left": {
+                    "nodeType": "Expr_BinaryOp_Plus",
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    },
+                    "left": {
+                        "nodeType": "Scalar_String",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5,
+                            "kind": 2,
+                            "rawValue": "\"Hello\""
+                        },
+                        "value": "Hello"
+                    },
+                    "right": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        },
+                        "name": "b"
+                    }
+                },
+                "right": {
+                    "nodeType": "Scalar_String",
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5,
+                        "kind": 2,
+                        "rawValue": "\"Word!\""
+                    },
+                    "value": "Word!"
+                }
+            }
+        ]
+    }
+]

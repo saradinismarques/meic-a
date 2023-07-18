@@ -1,0 +1,16 @@
+[
+    {
+        "vulnerability": "Nested While Break",
+        "source": "source2",
+        "sink": "sink1",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Nested While Break",
+        "source": "source1",
+        "sink": "sink1",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

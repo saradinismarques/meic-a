@@ -1,0 +1,49 @@
+[
+    {
+        "vulnerability": "SwitchNoImplicit",
+        "source": "source1",
+        "sink": "sink1",
+        "unsanitized flows": "no",
+        "sanitized flows": [
+            ["s"]
+        ]
+    },
+    {
+        "vulnerability": "SwitchNoImplicit",
+        "source": "source2",
+        "sink": "sink1",
+        "unsanitized flows": "no",
+        "sanitized flows": [
+            ["s"]
+        ]
+    },
+    {
+        "vulnerability": "SwitchNoImplicit",
+        "source": "source3",
+        "sink": "sink1",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "SwitchImplicit",
+        "source": "source_implicit1",
+        "sink": "sink1",
+        "unsanitized flows": "yes",
+        "sanitized flows": [
+            [
+                "s"
+            ]
+        ]
+    },
+    {
+        "vulnerability": "SwitchImplicit",
+        "source": "source_implicit2",
+        "sink": "sink1",
+        "unsanitized flows": "no",
+        "sanitized flows": [
+            [
+                "s"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "vulnerability": "If implicit vulnerability",
+        "sources": [
+            "$source"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "sink"
+        ],
+        "implicit": "yes"
+    },
+    {
+        "vulnerability": "If implicit vulnerability doesn't exist",
+        "sources": [
+            "$source"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "sink"
+        ],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "While implicit vulnerability",
+        "sources": [
+            "$source1",
+            "$source2",
+            "$source3"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "sink1",
+            "sink2",
+            "sink3"
+        ],
+        "implicit": "yes"
+    },
+    {
+        "vulnerability": "While implicit vulnerability doesn't exist",
+        "sources": [
+            "$source1",
+            "$source2",
+            "$source3"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "sink1",
+            "sink2",
+            "sink3"
+        ],
+        "implicit": "no"
+    }
+]

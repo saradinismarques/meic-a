@@ -1,0 +1,51 @@
+[
+	{
+		"vulnerability": "Order of evaluation matters",
+		"sources": [
+			"source1",
+			"source2"
+        ],
+		"sanitizers": [
+			"sanitize"
+		],
+		"sinks": [
+			"$sink1"
+		],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "No vulnerability after re assignment",
+		"sources": [
+			"source3"
+        ],
+		"sanitizers": [],
+		"sinks": [
+			"$sink2"
+		],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "Condition is always the last to be evaluated v1",
+		"sources": [
+			"source4"
+        ],
+		"sanitizers": [
+			"sanitize"
+		],
+		"sinks": [
+			"$sink3"
+		],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "Condition is always the last to be evaluated v2",
+		"sources": [
+			"source5"
+        ],
+		"sanitizers": [],
+		"sinks": [
+			"$sink4"
+		],
+		"implicit": "no"
+	}
+]

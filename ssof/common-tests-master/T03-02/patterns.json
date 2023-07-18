@@ -1,0 +1,24 @@
+[
+    {
+        "vulnerability": "ElseIfs - not implicit",
+        "sources": [
+            "$a"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$b"
+        ],
+        "implicit": "no"
+    },
+    {
+        "vulnerability": "Else - implicit",
+        "sources": [
+            "$a"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$c"
+        ],
+        "implicit": "yes"
+    }
+]

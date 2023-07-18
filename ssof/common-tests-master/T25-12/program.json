@@ -1,0 +1,56 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "source",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                }
+            },
+            "expr": {
+                "nodeType": "Scalar_String",
+                "value": "oi",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2,
+                    "kind": 2,
+                    "rawValue": "\"oi\""
+                }
+            },
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            }
+        },
+        "attributes": {
+            "startLine": 2,
+            "endLine": 2
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Print",
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "name": "source",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                }
+            },
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            }
+        },
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        }
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "nodeType": "Stmt_If",
+        "attributes": {
+            "startLine": 2,
+            "endLine": 6
+        },
+        "cond": {
+            "nodeType": "Expr_Variable",
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            },
+            "name": "source1"
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_If",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 5
+                },
+                "cond": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "source2"
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "expr": {
+                            "nodeType": "Expr_FuncCall",
+                            "attributes": {
+                                "startLine": 4,
+                                "endLine": 4
+                            },
+                            "name": {
+                                "nodeType": "Name",
+                                "attributes": {
+                                    "startLine": 4,
+                                    "endLine": 4
+                                },
+                                "parts": [
+                                    "sink"
+                                ]
+                            },
+                            "args": []
+                        }
+                    }
+                ],
+                "elseifs": [],
+                "else": null
+            }
+        ],
+        "elseifs": [],
+        "else": null
+    }
+]

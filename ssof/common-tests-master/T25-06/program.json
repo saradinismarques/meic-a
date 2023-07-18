@@ -1,0 +1,214 @@
+[
+    {
+        "nodeType": "Stmt_If",
+        "cond": {
+            "nodeType": "Expr_Variable",
+            "name": "source_1",
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_If",
+                "cond": {
+                    "nodeType": "Expr_BinaryOp_Equal",
+                    "left": {
+                        "nodeType": "Scalar_String",
+                        "value": "a",
+                        "attributes": {
+                            "startLine": 3,
+                            "endLine": 3,
+                            "kind": 2,
+                            "rawValue": "\"a\""
+                        }
+                    },
+                    "right": {
+                        "nodeType": "Scalar_String",
+                        "value": "b",
+                        "attributes": {
+                            "startLine": 3,
+                            "endLine": 3,
+                            "kind": 2,
+                            "rawValue": "\"b\""
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    }
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "expr": {
+                            "nodeType": "Expr_Assign",
+                            "var": {
+                                "nodeType": "Expr_Variable",
+                                "name": "a",
+                                "attributes": {
+                                    "startLine": 4,
+                                    "endLine": 4
+                                }
+                            },
+                            "expr": {
+                                "nodeType": "Expr_Variable",
+                                "name": "source_2",
+                                "attributes": {
+                                    "startLine": 4,
+                                    "endLine": 4
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 4,
+                                "endLine": 4
+                            }
+                        },
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        }
+                    }
+                ],
+                "elseifs": [
+                    {
+                        "nodeType": "Stmt_ElseIf",
+                        "cond": {
+                            "nodeType": "Expr_ConstFetch",
+                            "name": {
+                                "nodeType": "Name",
+                                "parts": [
+                                    "false"
+                                ],
+                                "attributes": {
+                                    "startLine": 5,
+                                    "endLine": 5
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 5,
+                                "endLine": 5
+                            }
+                        },
+                        "stmts": [
+                            {
+                                "nodeType": "Stmt_Expression",
+                                "expr": {
+                                    "nodeType": "Expr_Assign",
+                                    "var": {
+                                        "nodeType": "Expr_Variable",
+                                        "name": "a",
+                                        "attributes": {
+                                            "startLine": 6,
+                                            "endLine": 6
+                                        }
+                                    },
+                                    "expr": {
+                                        "nodeType": "Expr_Variable",
+                                        "name": "source_3",
+                                        "attributes": {
+                                            "startLine": 6,
+                                            "endLine": 6
+                                        }
+                                    },
+                                    "attributes": {
+                                        "startLine": 6,
+                                        "endLine": 6
+                                    }
+                                },
+                                "attributes": {
+                                    "startLine": 6,
+                                    "endLine": 6
+                                }
+                            }
+                        ],
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 7
+                        }
+                    }
+                ],
+                "else": {
+                    "nodeType": "Stmt_Else",
+                    "stmts": [
+                        {
+                            "nodeType": "Stmt_Expression",
+                            "expr": {
+                                "nodeType": "Expr_Assign",
+                                "var": {
+                                    "nodeType": "Expr_Variable",
+                                    "name": "a",
+                                    "attributes": {
+                                        "startLine": 8,
+                                        "endLine": 8
+                                    }
+                                },
+                                "expr": {
+                                    "nodeType": "Expr_Variable",
+                                    "name": "source_4",
+                                    "attributes": {
+                                        "startLine": 8,
+                                        "endLine": 8
+                                    }
+                                },
+                                "attributes": {
+                                    "startLine": 8,
+                                    "endLine": 8
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 8,
+                                "endLine": 8
+                            }
+                        }
+                    ],
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 9
+                    }
+                },
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 9
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "name": "sink",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        }
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "name": "a",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 10,
+                        "endLine": 10
+                    }
+                },
+                "attributes": {
+                    "startLine": 10,
+                    "endLine": 10
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null,
+        "attributes": {
+            "startLine": 2,
+            "endLine": 11
+        }
+    }
+]

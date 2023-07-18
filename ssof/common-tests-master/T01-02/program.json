@@ -1,0 +1,88 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_BitwiseNot",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "expr": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "b"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 4,
+            "endLine": 4
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 4,
+                "endLine": 4
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "name": "c"
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "name": "a"
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 7,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ $b -> $a -> $c",
+                    "line": 6,
+                    "filePos": 36,
+                    "tokenPos": 17,
+                    "endLine": 6,
+                    "endFilePos": 52,
+                    "endTokenPos": 17
+                }
+            ],
+            "endLine": 7
+        }
+    }
+]

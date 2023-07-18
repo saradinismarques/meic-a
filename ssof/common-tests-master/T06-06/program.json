@@ -1,0 +1,676 @@
+[
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 4,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ break node tests",
+                    "line": 2,
+                    "filePos": 11,
+                    "tokenPos": 2,
+                    "endLine": 2,
+                    "endFilePos": 29,
+                    "endTokenPos": 2
+                }
+            ],
+            "endLine": 7
+        },
+        "cond": {
+            "nodeType": "Expr_ConstFetch",
+            "attributes": {
+                "startLine": 4,
+                "endLine": 4
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "parts": [
+                    "true"
+                ]
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Break",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "num": null
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 6,
+                        "endLine": 6
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "name": "sink"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_FuncCall",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "name": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6
+                            },
+                            "parts": [
+                                "source"
+                            ]
+                        },
+                        "args": []
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 9,
+            "endLine": 19
+        },
+        "cond": {
+            "nodeType": "Expr_ConstFetch",
+            "attributes": {
+                "startLine": 9,
+                "endLine": 9
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9
+                },
+                "parts": [
+                    "true"
+                ]
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_If",
+                "attributes": {
+                    "startLine": 10,
+                    "endLine": 16
+                },
+                "cond": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 10,
+                        "endLine": 10
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        },
+                        "parts": [
+                            "condition"
+                        ]
+                    },
+                    "args": []
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Break",
+                        "attributes": {
+                            "startLine": 11,
+                            "endLine": 11
+                        },
+                        "num": null
+                    },
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "attributes": {
+                            "startLine": 12,
+                            "endLine": 12
+                        },
+                        "expr": {
+                            "nodeType": "Expr_Assign",
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12
+                            },
+                            "var": {
+                                "nodeType": "Expr_Variable",
+                                "attributes": {
+                                    "startLine": 12,
+                                    "endLine": 12
+                                },
+                                "name": "sink"
+                            },
+                            "expr": {
+                                "nodeType": "Expr_FuncCall",
+                                "attributes": {
+                                    "startLine": 12,
+                                    "endLine": 12
+                                },
+                                "name": {
+                                    "nodeType": "Name",
+                                    "attributes": {
+                                        "startLine": 12,
+                                        "endLine": 12
+                                    },
+                                    "parts": [
+                                        "source"
+                                    ]
+                                },
+                                "args": []
+                            }
+                        }
+                    }
+                ],
+                "elseifs": [],
+                "else": {
+                    "nodeType": "Stmt_Else",
+                    "attributes": {
+                        "startLine": 13,
+                        "endLine": 16
+                    },
+                    "stmts": [
+                        {
+                            "nodeType": "Stmt_Break",
+                            "attributes": {
+                                "startLine": 14,
+                                "endLine": 14
+                            },
+                            "num": null
+                        },
+                        {
+                            "nodeType": "Stmt_Expression",
+                            "attributes": {
+                                "startLine": 15,
+                                "endLine": 15
+                            },
+                            "expr": {
+                                "nodeType": "Expr_Assign",
+                                "attributes": {
+                                    "startLine": 15,
+                                    "endLine": 15
+                                },
+                                "var": {
+                                    "nodeType": "Expr_Variable",
+                                    "attributes": {
+                                        "startLine": 15,
+                                        "endLine": 15
+                                    },
+                                    "name": "sink"
+                                },
+                                "expr": {
+                                    "nodeType": "Expr_FuncCall",
+                                    "attributes": {
+                                        "startLine": 15,
+                                        "endLine": 15
+                                    },
+                                    "name": {
+                                        "nodeType": "Name",
+                                        "attributes": {
+                                            "startLine": 15,
+                                            "endLine": 15
+                                        },
+                                        "parts": [
+                                            "source"
+                                        ]
+                                    },
+                                    "args": []
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 18,
+                    "endLine": 18
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 18,
+                        "endLine": 18
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 18,
+                            "endLine": 18
+                        },
+                        "name": "sink"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_FuncCall",
+                        "attributes": {
+                            "startLine": 18,
+                            "endLine": 18
+                        },
+                        "name": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 18,
+                                "endLine": 18
+                            },
+                            "parts": [
+                                "source"
+                            ]
+                        },
+                        "args": []
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 22,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ breaks only affect one level",
+                    "line": 21,
+                    "filePos": 327,
+                    "tokenPos": 87,
+                    "endLine": 21,
+                    "endFilePos": 357,
+                    "endTokenPos": 87
+                }
+            ],
+            "endLine": 42
+        },
+        "cond": {
+            "nodeType": "Expr_ConstFetch",
+            "attributes": {
+                "startLine": 22,
+                "endLine": 22
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 22,
+                    "endLine": 22
+                },
+                "parts": [
+                    "true"
+                ]
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_While",
+                "attributes": {
+                    "startLine": 23,
+                    "endLine": 38
+                },
+                "cond": {
+                    "nodeType": "Expr_ConstFetch",
+                    "attributes": {
+                        "startLine": 23,
+                        "endLine": 23
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 23,
+                            "endLine": 23
+                        },
+                        "parts": [
+                            "true"
+                        ]
+                    }
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_If",
+                        "attributes": {
+                            "startLine": 24,
+                            "endLine": 35
+                        },
+                        "cond": {
+                            "nodeType": "Expr_FuncCall",
+                            "attributes": {
+                                "startLine": 24,
+                                "endLine": 24
+                            },
+                            "name": {
+                                "nodeType": "Name",
+                                "attributes": {
+                                    "startLine": 24,
+                                    "endLine": 24
+                                },
+                                "parts": [
+                                    "condition"
+                                ]
+                            },
+                            "args": []
+                        },
+                        "stmts": [
+                            {
+                                "nodeType": "Stmt_If",
+                                "attributes": {
+                                    "startLine": 25,
+                                    "endLine": 30
+                                },
+                                "cond": {
+                                    "nodeType": "Expr_ConstFetch",
+                                    "attributes": {
+                                        "startLine": 25,
+                                        "endLine": 25
+                                    },
+                                    "name": {
+                                        "nodeType": "Name",
+                                        "attributes": {
+                                            "startLine": 25,
+                                            "endLine": 25
+                                        },
+                                        "parts": [
+                                            "false"
+                                        ]
+                                    }
+                                },
+                                "stmts": [
+                                    {
+                                        "nodeType": "Stmt_Expression",
+                                        "attributes": {
+                                            "startLine": 26,
+                                            "endLine": 26
+                                        },
+                                        "expr": {
+                                            "nodeType": "Expr_Assign",
+                                            "attributes": {
+                                                "startLine": 26,
+                                                "endLine": 26
+                                            },
+                                            "var": {
+                                                "nodeType": "Expr_Variable",
+                                                "attributes": {
+                                                    "startLine": 26,
+                                                    "endLine": 26
+                                                },
+                                                "name": "sink"
+                                            },
+                                            "expr": {
+                                                "nodeType": "Expr_FuncCall",
+                                                "attributes": {
+                                                    "startLine": 26,
+                                                    "endLine": 26
+                                                },
+                                                "name": {
+                                                    "nodeType": "Name",
+                                                    "attributes": {
+                                                        "startLine": 26,
+                                                        "endLine": 26
+                                                    },
+                                                    "parts": [
+                                                        "source"
+                                                    ]
+                                                },
+                                                "args": []
+                                            }
+                                        }
+                                    }
+                                ],
+                                "elseifs": [],
+                                "else": {
+                                    "nodeType": "Stmt_Else",
+                                    "attributes": {
+                                        "startLine": 27,
+                                        "endLine": 30
+                                    },
+                                    "stmts": [
+                                        {
+                                            "nodeType": "Stmt_Break",
+                                            "attributes": {
+                                                "startLine": 28,
+                                                "endLine": 28
+                                            },
+                                            "num": null
+                                        },
+                                        {
+                                            "nodeType": "Stmt_Expression",
+                                            "attributes": {
+                                                "startLine": 29,
+                                                "endLine": 29
+                                            },
+                                            "expr": {
+                                                "nodeType": "Expr_Assign",
+                                                "attributes": {
+                                                    "startLine": 29,
+                                                    "endLine": 29
+                                                },
+                                                "var": {
+                                                    "nodeType": "Expr_Variable",
+                                                    "attributes": {
+                                                        "startLine": 29,
+                                                        "endLine": 29
+                                                    },
+                                                    "name": "sink"
+                                                },
+                                                "expr": {
+                                                    "nodeType": "Expr_FuncCall",
+                                                    "attributes": {
+                                                        "startLine": 29,
+                                                        "endLine": 29
+                                                    },
+                                                    "name": {
+                                                        "nodeType": "Name",
+                                                        "attributes": {
+                                                            "startLine": 29,
+                                                            "endLine": 29
+                                                        },
+                                                        "parts": [
+                                                            "source"
+                                                        ]
+                                                    },
+                                                    "args": []
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "nodeType": "Stmt_Expression",
+                                "attributes": {
+                                    "startLine": 32,
+                                    "endLine": 32
+                                },
+                                "expr": {
+                                    "nodeType": "Expr_Assign",
+                                    "attributes": {
+                                        "startLine": 32,
+                                        "endLine": 32
+                                    },
+                                    "var": {
+                                        "nodeType": "Expr_Variable",
+                                        "attributes": {
+                                            "startLine": 32,
+                                            "endLine": 32
+                                        },
+                                        "name": "sink"
+                                    },
+                                    "expr": {
+                                        "nodeType": "Expr_FuncCall",
+                                        "attributes": {
+                                            "startLine": 32,
+                                            "endLine": 32
+                                        },
+                                        "name": {
+                                            "nodeType": "Name",
+                                            "attributes": {
+                                                "startLine": 32,
+                                                "endLine": 32
+                                            },
+                                            "parts": [
+                                                "source"
+                                            ]
+                                        },
+                                        "args": []
+                                    }
+                                }
+                            }
+                        ],
+                        "elseifs": [],
+                        "else": {
+                            "nodeType": "Stmt_Else",
+                            "attributes": {
+                                "startLine": 33,
+                                "endLine": 35
+                            },
+                            "stmts": [
+                                {
+                                    "nodeType": "Stmt_Break",
+                                    "attributes": {
+                                        "startLine": 34,
+                                        "endLine": 34
+                                    },
+                                    "num": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "attributes": {
+                            "startLine": 37,
+                            "endLine": 37
+                        },
+                        "expr": {
+                            "nodeType": "Expr_Assign",
+                            "attributes": {
+                                "startLine": 37,
+                                "endLine": 37
+                            },
+                            "var": {
+                                "nodeType": "Expr_Variable",
+                                "attributes": {
+                                    "startLine": 37,
+                                    "endLine": 37
+                                },
+                                "name": "sink"
+                            },
+                            "expr": {
+                                "nodeType": "Expr_FuncCall",
+                                "attributes": {
+                                    "startLine": 37,
+                                    "endLine": 37
+                                },
+                                "name": {
+                                    "nodeType": "Name",
+                                    "attributes": {
+                                        "startLine": 37,
+                                        "endLine": 37
+                                    },
+                                    "parts": [
+                                        "source"
+                                    ]
+                                },
+                                "args": []
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 41,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ this one will be catch",
+                            "line": 40,
+                            "filePos": 769,
+                            "tokenPos": 183,
+                            "endLine": 40,
+                            "endFilePos": 793,
+                            "endTokenPos": 183
+                        }
+                    ],
+                    "endLine": 41
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 41,
+                        "comments": [
+                            {
+                                "nodeType": "Comment",
+                                "text": "\/\/ this one will be catch",
+                                "line": 40,
+                                "filePos": 769,
+                                "tokenPos": 183,
+                                "endLine": 40,
+                                "endFilePos": 793,
+                                "endTokenPos": 183
+                            }
+                        ],
+                        "endLine": 41
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 41,
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/ this one will be catch",
+                                    "line": 40,
+                                    "filePos": 769,
+                                    "tokenPos": 183,
+                                    "endLine": 40,
+                                    "endFilePos": 793,
+                                    "endTokenPos": 183
+                                }
+                            ],
+                            "endLine": 41
+                        },
+                        "name": "sink1"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_FuncCall",
+                        "attributes": {
+                            "startLine": 41,
+                            "endLine": 41
+                        },
+                        "name": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 41,
+                                "endLine": 41
+                            },
+                            "parts": [
+                                "source1"
+                            ]
+                        },
+                        "args": []
+                    }
+                }
+            }
+        ]
+    }
+]

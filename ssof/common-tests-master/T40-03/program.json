@@ -1,0 +1,211 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 4,
+            "endLine": 4
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 4,
+                "endLine": 4
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "name": "c"
+            },
+            "expr": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4,
+                    "kind": 2,
+                    "rawValue": "\"ola\""
+                },
+                "value": "ola"
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 5,
+            "endLine": 8
+        },
+        "cond": {
+            "nodeType": "Expr_ConstFetch",
+            "attributes": {
+                "startLine": 5,
+                "endLine": 5
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "parts": [
+                    "true"
+                ]
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Break",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "num": null
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        },
+                        "name": "c"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        },
+                        "name": "source"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 10,
+            "endLine": 13
+        },
+        "cond": {
+            "nodeType": "Expr_ConstFetch",
+            "attributes": {
+                "startLine": 10,
+                "endLine": 10
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 10,
+                    "endLine": 10
+                },
+                "parts": [
+                    "true"
+                ]
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Continue",
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 11
+                },
+                "num": null
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 12,
+                    "endLine": 12
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 12,
+                        "endLine": 12
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 12,
+                            "endLine": 12
+                        },
+                        "name": "c"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 12,
+                            "endLine": 12
+                        },
+                        "name": "source"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 15,
+            "endLine": 15
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 15,
+                "endLine": 15
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 15,
+                    "endLine": 15
+                },
+                "name": "sink"
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 15,
+                    "endLine": 15
+                },
+                "name": "c"
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 19,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ Small debug break and continue test",
+                    "line": 17,
+                    "filePos": 130,
+                    "tokenPos": 56,
+                    "endLine": 17,
+                    "endFilePos": 167,
+                    "endTokenPos": 56
+                }
+            ],
+            "endLine": 19
+        }
+    }
+]

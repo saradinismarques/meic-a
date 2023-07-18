@@ -1,0 +1,31 @@
+[
+    
+    {
+        "vulnerability": "Implicit vuln",
+        "source": "$source",
+        "sink": "sink1",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Implicit vuln",
+        "source": "$source",
+        "sink": "sink2",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Implicit vuln",
+        "source": "$source",
+        "sink": "sink3",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Implicit vuln",
+        "source": "$source",
+        "sink": "sink4",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

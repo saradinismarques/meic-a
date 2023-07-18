@@ -1,0 +1,185 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ Variable is unitialized, there is a vuln",
+                    "line": 2,
+                    "filePos": 7,
+                    "tokenPos": 2,
+                    "endLine": 2,
+                    "endFilePos": 49,
+                    "endTokenPos": 2
+                }
+            ],
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 3,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ Variable is unitialized, there is a vuln",
+                        "line": 2,
+                        "filePos": 7,
+                        "tokenPos": 2,
+                        "endLine": 2,
+                        "endFilePos": 49,
+                        "endTokenPos": 2
+                    }
+                ],
+                "endLine": 3
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ Variable is unitialized, there is a vuln",
+                            "line": 2,
+                            "filePos": 7,
+                            "tokenPos": 2,
+                            "endLine": 2,
+                            "endFilePos": 49,
+                            "endTokenPos": 2
+                        }
+                    ],
+                    "endLine": 3
+                },
+                "name": "sink1"
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "a"
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 5,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ Now variable is initialized, there is no vuln anymore",
+                    "line": 4,
+                    "filePos": 66,
+                    "tokenPos": 11,
+                    "endLine": 4,
+                    "endFilePos": 121,
+                    "endTokenPos": 11
+                }
+            ],
+            "endLine": 5
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 5,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ Now variable is initialized, there is no vuln anymore",
+                        "line": 4,
+                        "filePos": 66,
+                        "tokenPos": 11,
+                        "endLine": 4,
+                        "endFilePos": 121,
+                        "endTokenPos": 11
+                    }
+                ],
+                "endLine": 5
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 5,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ Now variable is initialized, there is no vuln anymore",
+                            "line": 4,
+                            "filePos": 66,
+                            "tokenPos": 11,
+                            "endLine": 4,
+                            "endFilePos": 121,
+                            "endTokenPos": 11
+                        }
+                    ],
+                    "endLine": 5
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5,
+                    "rawValue": "3",
+                    "kind": 10
+                },
+                "value": 3
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 6,
+            "endLine": 6
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 6,
+                "endLine": 6
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "name": "sink2"
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "name": "a"
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 9,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ there should be only one vuln on sink1 due to unitialized var",
+                    "line": 8,
+                    "filePos": 148,
+                    "tokenPos": 27,
+                    "endLine": 8,
+                    "endFilePos": 211,
+                    "endTokenPos": 27
+                }
+            ],
+            "endLine": 9
+        }
+    }
+]

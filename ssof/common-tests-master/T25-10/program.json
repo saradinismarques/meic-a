@@ -1,0 +1,213 @@
+[
+    {
+        "nodeType": "Stmt_While",
+        "cond": {
+            "nodeType": "Expr_Variable",
+            "name": "cond",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "name": "cond",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        }
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "name": "source_1",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    }
+                },
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                }
+            },
+            {
+                "nodeType": "Stmt_If",
+                "cond": {
+                    "nodeType": "Expr_BinaryOp_Equal",
+                    "left": {
+                        "nodeType": "Expr_Variable",
+                        "name": "c",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        }
+                    },
+                    "right": {
+                        "nodeType": "Scalar_LNumber",
+                        "value": 21,
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5,
+                            "rawValue": "21",
+                            "kind": 10
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    }
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "expr": {
+                            "nodeType": "Expr_Assign",
+                            "var": {
+                                "nodeType": "Expr_Variable",
+                                "name": "a",
+                                "attributes": {
+                                    "startLine": 6,
+                                    "endLine": 6
+                                }
+                            },
+                            "expr": {
+                                "nodeType": "Expr_Variable",
+                                "name": "b",
+                                "attributes": {
+                                    "startLine": 6,
+                                    "endLine": 6
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6
+                            }
+                        },
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        }
+                    },
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "expr": {
+                            "nodeType": "Expr_Assign",
+                            "var": {
+                                "nodeType": "Expr_Variable",
+                                "name": "cond",
+                                "attributes": {
+                                    "startLine": 7,
+                                    "endLine": 7
+                                }
+                            },
+                            "expr": {
+                                "nodeType": "Expr_Variable",
+                                "name": "source_2",
+                                "attributes": {
+                                    "startLine": 7,
+                                    "endLine": 7
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 7,
+                                "endLine": 7
+                            }
+                        },
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        }
+                    },
+                    {
+                        "nodeType": "Stmt_Break",
+                        "num": null,
+                        "attributes": {
+                            "startLine": 8,
+                            "endLine": 8
+                        }
+                    },
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "expr": {
+                            "nodeType": "Expr_Assign",
+                            "var": {
+                                "nodeType": "Expr_Variable",
+                                "name": "a",
+                                "attributes": {
+                                    "startLine": 9,
+                                    "endLine": 9
+                                }
+                            },
+                            "expr": {
+                                "nodeType": "Expr_Variable",
+                                "name": "source_3",
+                                "attributes": {
+                                    "startLine": 9,
+                                    "endLine": 9
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 9,
+                                "endLine": 9
+                            }
+                        },
+                        "attributes": {
+                            "startLine": 9,
+                            "endLine": 9
+                        }
+                    }
+                ],
+                "elseifs": [],
+                "else": null,
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 10
+                }
+            }
+        ],
+        "attributes": {
+            "startLine": 3,
+            "endLine": 11
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "sink",
+                "attributes": {
+                    "startLine": 13,
+                    "endLine": 13
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "name": "a",
+                "attributes": {
+                    "startLine": 13,
+                    "endLine": 13
+                }
+            },
+            "attributes": {
+                "startLine": 13,
+                "endLine": 13
+            }
+        },
+        "attributes": {
+            "startLine": 13,
+            "endLine": 13
+        }
+    }
+]

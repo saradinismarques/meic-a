@@ -1,0 +1,11 @@
+[
+    {
+       "vulnerability":"One vulnerability should be found",
+       "source":"source1",
+       "sink":"$sink1",
+       "unsanitized flows":"yes",
+       "sanitized flows":[
+          
+       ]
+    }
+ ]

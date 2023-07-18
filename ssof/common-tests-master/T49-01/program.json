@@ -1,0 +1,120 @@
+[
+    {
+        "nodeType": "Stmt_For",
+        "attributes": {
+            "startLine": 2,
+            "endLine": 4
+        },
+        "init": [
+            {
+                "nodeType": "Expr_Assign",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2
+                    },
+                    "name": "i"
+                },
+                "expr": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 2,
+                            "endLine": 2
+                        },
+                        "parts": [
+                            "source"
+                        ]
+                    },
+                    "args": []
+                }
+            }
+        ],
+        "cond": [
+            {
+                "nodeType": "Expr_BinaryOp_Smaller",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2
+                    },
+                    "name": "i"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2,
+                        "rawValue": "10",
+                        "kind": 10
+                    },
+                    "value": 10
+                }
+            }
+        ],
+        "loop": [
+            {
+                "nodeType": "Expr_PostInc",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2
+                    },
+                    "name": "i"
+                }
+            }
+        ],
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 3,
+                            "endLine": 3
+                        },
+                        "name": "sink"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 3,
+                            "endLine": 3
+                        },
+                        "name": "i"
+                    }
+                }
+            }
+        ]
+    }
+]

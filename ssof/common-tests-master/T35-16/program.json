@@ -1,0 +1,203 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "parts": [
+                        "source"
+                    ]
+                },
+                "args": []
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 4,
+            "endLine": 4
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 4,
+                "endLine": 4
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4,
+                    "kind": 2,
+                    "rawValue": "\"OK\""
+                },
+                "value": "OK"
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 5,
+            "endLine": 5
+        },
+        "expr": {
+            "nodeType": "Expr_FuncCall",
+            "attributes": {
+                "startLine": 5,
+                "endLine": 5
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "parts": [
+                    "sink"
+                ]
+            },
+            "args": [
+                {
+                    "nodeType": "Arg",
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    },
+                    "name": null,
+                    "value": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        },
+                        "name": "a"
+                    },
+                    "byRef": false,
+                    "unpack": false
+                }
+            ]
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 6,
+            "endLine": 6
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 6,
+                "endLine": 6
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "name": "d"
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Echo",
+        "attributes": {
+            "startLine": 7,
+            "endLine": 7
+        },
+        "exprs": [
+            {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                },
+                "name": "a"
+            },
+            {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7
+                    },
+                    "parts": [
+                        "source"
+                    ]
+                },
+                "args": []
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 11,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ $a is clean for the first sink but is tainted for echo.",
+                    "line": 9,
+                    "filePos": 96,
+                    "tokenPos": 41,
+                    "endLine": 9,
+                    "endFilePos": 153,
+                    "endTokenPos": 41
+                }
+            ],
+            "endLine": 11
+        }
+    }
+]
+

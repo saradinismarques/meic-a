@@ -1,0 +1,251 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 2,
+            "endLine": 2
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "name": "u"
+            },
+            "expr": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2
+                    },
+                    "name": "_GET"
+                },
+                "dim": {
+                    "nodeType": "Scalar_String",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2,
+                        "kind": 1,
+                        "rawValue": "'username'"
+                    },
+                    "value": "username"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "p"
+            },
+            "expr": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "_GET"
+                },
+                "dim": {
+                    "nodeType": "Scalar_String",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3,
+                        "kind": 1,
+                        "rawValue": "'password'"
+                    },
+                    "value": "password"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 4,
+            "endLine": 4
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 4,
+                "endLine": 4
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "name": "q"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_Concat",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "left": {
+                    "nodeType": "Expr_BinaryOp_Concat",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    },
+                    "left": {
+                        "nodeType": "Expr_BinaryOp_Concat",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "left": {
+                            "nodeType": "Expr_BinaryOp_Concat",
+                            "attributes": {
+                                "startLine": 4,
+                                "endLine": 4
+                            },
+                            "left": {
+                                "nodeType": "Scalar_String",
+                                "attributes": {
+                                    "startLine": 4,
+                                    "endLine": 4,
+                                    "kind": 2,
+                                    "rawValue": "\"SELECT * FROM users WHERE user='\""
+                                },
+                                "value": "SELECT * FROM users WHERE user='"
+                            },
+                            "right": {
+                                "nodeType": "Expr_Variable",
+                                "attributes": {
+                                    "startLine": 4,
+                                    "endLine": 4
+                                },
+                                "name": "u"
+                            }
+                        },
+                        "right": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 4,
+                                "endLine": 4,
+                                "kind": 2,
+                                "rawValue": "\"' AND password='\""
+                            },
+                            "value": "' AND password='"
+                        }
+                    },
+                    "right": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "name": "p"
+                    }
+                },
+                "right": {
+                    "nodeType": "Scalar_String",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4,
+                        "kind": 2,
+                        "rawValue": "\"'\""
+                    },
+                    "value": "'"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 5,
+            "endLine": 5
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 5,
+                "endLine": 5
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "name": "query"
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    },
+                    "parts": [
+                        "mysql_query"
+                    ]
+                },
+                "args": [
+                    {
+                        "nodeType": "Arg",
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        },
+                        "name": null,
+                        "value": {
+                            "nodeType": "Expr_Variable",
+                            "attributes": {
+                                "startLine": 5,
+                                "endLine": 5
+                            },
+                            "name": "q"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            }
+        }
+    }
+]

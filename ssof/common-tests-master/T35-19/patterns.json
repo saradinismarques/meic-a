@@ -1,0 +1,8 @@
+[
+    {   "vulnerability": "Implicit Vuln",
+        "sinks": ["sink"], 
+        "sources": ["$b"],
+         "sanitizers": [],
+         "implicit": "yes" 
+    }
+] 

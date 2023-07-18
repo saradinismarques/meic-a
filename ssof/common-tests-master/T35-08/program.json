@@ -1,0 +1,252 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "u",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "name": "_GET",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2
+                    }
+                },
+                "dim": {
+                    "nodeType": "Scalar_String",
+                    "value": "username",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2,
+                        "kind": 1,
+                        "rawValue": "'username'"
+                    }
+                },
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                }
+            },
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            }
+        },
+        "attributes": {
+            "startLine": 2,
+            "endLine": 2
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "p",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "name": "_GET",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    }
+                },
+                "dim": {
+                    "nodeType": "Scalar_String",
+                    "value": "password",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3,
+                        "kind": 1,
+                        "rawValue": "'password'"
+                    }
+                },
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                }
+            },
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            }
+        },
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "q",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_Concat",
+                "left": {
+                    "nodeType": "Expr_BinaryOp_Concat",
+                    "left": {
+                        "nodeType": "Expr_BinaryOp_Concat",
+                        "left": {
+                            "nodeType": "Expr_BinaryOp_Concat",
+                            "left": {
+                                "nodeType": "Scalar_String",
+                                "value": "SELECT * FROM users WHERE user='",
+                                "attributes": {
+                                    "startLine": 4,
+                                    "endLine": 4,
+                                    "kind": 2,
+                                    "rawValue": "\"SELECT * FROM users WHERE user='\""
+                                }
+                            },
+                            "right": {
+                                "nodeType": "Expr_Variable",
+                                "name": "u",
+                                "attributes": {
+                                    "startLine": 4,
+                                    "endLine": 4
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 4,
+                                "endLine": 4
+                            }
+                        },
+                        "right": {
+                            "nodeType": "Scalar_String",
+                            "value": "' AND password='",
+                            "attributes": {
+                                "startLine": 4,
+                                "endLine": 4,
+                                "kind": 2,
+                                "rawValue": "\"' AND password='\""
+                            }
+                        },
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        }
+                    },
+                    "right": {
+                        "nodeType": "Expr_Variable",
+                        "name": "p",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    }
+                },
+                "right": {
+                    "nodeType": "Scalar_String",
+                    "value": "'",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4,
+                        "kind": 2,
+                        "rawValue": "\"'\""
+                    }
+                },
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                }
+            },
+            "attributes": {
+                "startLine": 4,
+                "endLine": 4
+            }
+        },
+        "attributes": {
+            "startLine": 4,
+            "endLine": 4
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "query",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "mysql_query"
+                    ],
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    }
+                },
+                "args": [
+                    {
+                        "nodeType": "Arg",
+                        "name": null,
+                        "value": {
+                            "nodeType": "Expr_Variable",
+                            "name": "q",
+                            "attributes": {
+                                "startLine": 5,
+                                "endLine": 5
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false,
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        }
+                    }
+                ],
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                }
+            },
+            "attributes": {
+                "startLine": 5,
+                "endLine": 5
+            }
+        },
+        "attributes": {
+            "startLine": 5,
+            "endLine": 5
+        }
+    }
+]
+

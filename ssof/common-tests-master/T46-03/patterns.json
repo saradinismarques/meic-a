@@ -1,0 +1,9 @@
+[
+    {
+        "vulnerability": "Continue Test",
+        "sources": ["source1"],
+        "sanitizers": [],
+        "sinks": ["sink1"],
+        "implicit": "no"
+    }
+]

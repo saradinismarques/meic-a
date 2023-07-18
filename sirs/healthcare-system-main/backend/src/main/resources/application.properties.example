@@ -1,0 +1,36 @@
+## Datasource
+spring.datasource.url=jdbc:mysql://localhost:<DB_PORT>/<DB_NAME>
+spring.datasource.username=<DB_USERNAME>
+spring.datasource.password=<DB_PASSWORD>
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+
+## Jpa
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+spring.jpa.open-in-view=false
+
+## Server
+server.port=8443
+logging.level.root=WARN
+
+server.ssl.key-store=classpath:springboot.p12
+
+server.ssl.key-store-password= SIRS2223
+
+server.ssl.key-store-type= PKCS12
+server.ssl.key-alias= springboot
+## Multipart
+# Enable multipart uploads
+spring.servlet.multipart.enabled=true
+# Threshold after which files are written to disk.
+spring.servlet.multipart.file-size-threshold=2KB
+# Max file size.
+spring.servlet.multipart.max-file-size=200MB
+# Max Request Size
+spring.servlet.multipart.max-request-size=215MB
+
+## Locale
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+spring.jackson.time-zone=Europe/Lisbon

@@ -1,0 +1,76 @@
+[
+    {
+        "vulnerability": "A",
+        "source": "$source_B",
+        "sink": "$sink",
+        "unsanitized flows": "no",
+        "sanitized flows": [
+            [
+                "s"
+            ]
+        ]
+    },
+    {
+        "vulnerability": "A",
+        "source": "source_A",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "B",
+        "source": "$source_B",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "C",
+        "source": "$source_B",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "C",
+        "source": "source_C",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "D",
+        "source": "$source_B",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "E",
+        "source": "$source_B",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "E",
+        "source": "$cond1",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "E",
+        "source": "$cond2",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "E",
+        "source": "$cond3",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

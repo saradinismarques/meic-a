@@ -1,0 +1,100 @@
+[
+    {
+        "nodeType": "Stmt_Echo",
+        "attributes": {
+            "startLine": 2,
+            "endLine": 2
+        },
+        "exprs": [
+            {
+                "nodeType": "Expr_Assign",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2
+                    },
+                    "name": "var"
+                },
+                "expr": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 2,
+                        "endLine": 2
+                    },
+                    "name": "source"
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "sink"
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "var"
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Echo",
+        "attributes": {
+            "startLine": 5,
+            "endLine": 5
+        },
+        "exprs": [
+            {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "name": "source1"
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 8,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ tip: echo",
+                    "line": 7,
+                    "filePos": 72,
+                    "tokenPos": 21,
+                    "endLine": 7,
+                    "endFilePos": 83,
+                    "endTokenPos": 21
+                }
+            ],
+            "endLine": 8
+        }
+    }
+]

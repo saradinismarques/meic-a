@@ -1,0 +1,26 @@
+[
+    {
+        "vulnerability": "No vulnerabilities should be found",
+        "sources": [
+            "source"
+        ],
+        "sanitizers": [
+        ],
+        "sinks": [
+            "$sink"
+        ],
+        "implicit": "yes"
+    }, 
+    {
+        "vulnerability": "One vulnerability should be found",
+        "sources": [
+            "source1"
+        ],
+        "sanitizers": [
+        ],
+        "sinks": [
+            "$sink1"
+        ],
+        "implicit": "yes"
+    }
+]

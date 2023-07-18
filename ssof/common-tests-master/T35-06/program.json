@@ -1,0 +1,37 @@
+[
+    {
+        "nodeType": "Stmt_Echo",
+        "exprs": [
+            {
+                "nodeType": "Scalar_String",
+                "value": "a",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3,
+                    "kind": 2,
+                    "rawValue": "\"a\""
+                }
+            },
+            {
+                "nodeType": "Expr_Variable",
+                "name": "source",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                }
+            },
+            {
+                "nodeType": "Expr_Variable",
+                "name": "a",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                }
+            }
+        ],
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        }
+    }
+]

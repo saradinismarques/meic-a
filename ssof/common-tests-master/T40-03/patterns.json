@@ -1,0 +1,9 @@
+[
+    {
+        "vulnerability": "Should not happen",
+        "sources": ["$source"],
+        "sanitizers": [],
+        "sinks": ["$sink"],
+        "implicit": "no"
+    }
+]

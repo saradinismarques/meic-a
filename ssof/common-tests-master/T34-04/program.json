@@ -1,0 +1,65 @@
+[
+    {
+        "nodeType": "Stmt_If",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 5
+        },
+        "cond": {
+            "nodeType": "Expr_Variable",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "name": "source"
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "expr": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "parts": [
+                            "sink"
+                        ]
+                    },
+                    "args": []
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 8,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ tip: estudasses",
+                    "line": 7,
+                    "filePos": 56,
+                    "tokenPos": 16,
+                    "endLine": 7,
+                    "endFilePos": 73,
+                    "endTokenPos": 16
+                }
+            ],
+            "endLine": 8
+        }
+    }
+]

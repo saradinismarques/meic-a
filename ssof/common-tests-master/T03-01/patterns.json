@@ -1,0 +1,24 @@
+[
+	{
+		"vulnerability": "Printing insecure data - implicit",
+        	"sources": [
+            	"$_GET"
+        	],
+        	"sanitizers": [],
+        	"sinks": [
+            	"echo", "print"
+        	],
+        	"implicit": "yes"
+	},
+	{ 
+                "vulnerability": "Printing insecure data - not implicit",
+                "sources": [
+                "$_GET"
+                ],
+                "sanitizers": [],
+                "sinks": [
+                "echo", "print"
+                ],
+                "implicit": "no"
+        }
+]

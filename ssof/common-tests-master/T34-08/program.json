@@ -1,0 +1,267 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_BinaryOp_BooleanAnd",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "left": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": "source"
+            },
+            "right": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "parts": [
+                        "sink1"
+                    ]
+                },
+                "args": []
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 4,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ implicit flows",
+                    "line": 3,
+                    "filePos": 31,
+                    "tokenPos": 11,
+                    "endLine": 3,
+                    "endFilePos": 47,
+                    "endTokenPos": 11
+                }
+            ],
+            "endLine": 4
+        },
+        "expr": {
+            "nodeType": "Expr_BinaryOp_BooleanOr",
+            "attributes": {
+                "startLine": 4,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ implicit flows",
+                        "line": 3,
+                        "filePos": 31,
+                        "tokenPos": 11,
+                        "endLine": 3,
+                        "endFilePos": 47,
+                        "endTokenPos": 11
+                    }
+                ],
+                "endLine": 4
+            },
+            "left": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 4,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ implicit flows",
+                            "line": 3,
+                            "filePos": 31,
+                            "tokenPos": 11,
+                            "endLine": 3,
+                            "endFilePos": 47,
+                            "endTokenPos": 11
+                        }
+                    ],
+                    "endLine": 4
+                },
+                "name": "source"
+            },
+            "right": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    },
+                    "parts": [
+                        "sink2"
+                    ]
+                },
+                "args": []
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 5,
+            "endLine": 5
+        },
+        "expr": {
+            "nodeType": "Expr_BinaryOp_LogicalAnd",
+            "attributes": {
+                "startLine": 5,
+                "endLine": 5
+            },
+            "left": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "name": "source"
+            },
+            "right": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    },
+                    "parts": [
+                        "sink3"
+                    ]
+                },
+                "args": []
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 6,
+            "endLine": 6
+        },
+        "expr": {
+            "nodeType": "Expr_BinaryOp_LogicalOr",
+            "attributes": {
+                "startLine": 6,
+                "endLine": 6
+            },
+            "left": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "name": "source"
+            },
+            "right": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 6,
+                        "endLine": 6
+                    },
+                    "parts": [
+                        "sink4"
+                    ]
+                },
+                "args": []
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 8,
+            "endLine": 8
+        },
+        "expr": {
+            "nodeType": "Expr_BinaryOp_LogicalXor",
+            "attributes": {
+                "startLine": 8,
+                "endLine": 8
+            },
+            "left": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 8,
+                    "endLine": 8
+                },
+                "name": "source"
+            },
+            "right": {
+                "nodeType": "Expr_FuncCall",
+                "attributes": {
+                    "startLine": 8,
+                    "endLine": 8
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 8,
+                        "endLine": 8
+                    },
+                    "parts": [
+                        "sink5"
+                    ]
+                },
+                "args": []
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 11,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ no implicit flow",
+                    "line": 8,
+                    "filePos": 150,
+                    "tokenPos": 49,
+                    "endLine": 8,
+                    "endFilePos": 168,
+                    "endTokenPos": 49
+                },
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ short-circuit operators can generate implicit flows ",
+                    "line": 10,
+                    "filePos": 175,
+                    "tokenPos": 51,
+                    "endLine": 10,
+                    "endFilePos": 229,
+                    "endTokenPos": 51
+                }
+            ],
+            "endLine": 11
+        }
+    }
+]

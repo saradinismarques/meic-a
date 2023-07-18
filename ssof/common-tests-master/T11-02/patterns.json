@@ -1,0 +1,24 @@
+[
+	{
+		"vulnerability": "Assign in echo function",
+		"sources": [
+			"$source"
+        ],
+		"sanitizers": [],
+		"sinks": [
+			"$sink"
+		],
+		"implicit": "no"
+	},
+	{
+		"vulnerability": "Echo can be sink",
+		"sources": [
+			"$source1"
+        ],
+		"sanitizers": [],
+		"sinks": [
+			"echo"
+		],
+		"implicit": "no"
+	}
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "vulnerability": "Elseif",
+        "sources": ["$b", "$d"],
+        "sanitizers": [],
+        "sinks": ["e"],
+        "implicit": "no"
+    }
+]

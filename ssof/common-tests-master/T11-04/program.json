@@ -1,0 +1,708 @@
+[
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 7
+        },
+        "cond": {
+            "nodeType": "Expr_FuncCall",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "parts": [
+                    "condition1"
+                ]
+            },
+            "args": []
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "expr": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "parts": [
+                            "sink1"
+                        ]
+                    },
+                    "args": [
+                        {
+                            "nodeType": "Arg",
+                            "attributes": {
+                                "startLine": 4,
+                                "endLine": 4
+                            },
+                            "name": null,
+                            "value": {
+                                "nodeType": "Expr_Variable",
+                                "attributes": {
+                                    "startLine": 4,
+                                    "endLine": 4
+                                },
+                                "name": "source1"
+                            },
+                            "byRef": false,
+                            "unpack": false
+                        }
+                    ]
+                }
+            },
+            {
+                "nodeType": "Stmt_Continue",
+                "attributes": {
+                    "startLine": 5,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ reached",
+                            "line": 4,
+                            "filePos": 58,
+                            "tokenPos": 17,
+                            "endLine": 4,
+                            "endFilePos": 67,
+                            "endTokenPos": 17
+                        }
+                    ],
+                    "endLine": 5
+                },
+                "num": null
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "expr": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 6,
+                        "endLine": 6
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "parts": [
+                            "sink2"
+                        ]
+                    },
+                    "args": [
+                        {
+                            "nodeType": "Arg",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6
+                            },
+                            "name": null,
+                            "value": {
+                                "nodeType": "Expr_Variable",
+                                "attributes": {
+                                    "startLine": 6,
+                                    "endLine": 6
+                                },
+                                "name": "source2"
+                            },
+                            "byRef": false,
+                            "unpack": false
+                        }
+                    ]
+                }
+            },
+            {
+                "nodeType": "Stmt_Nop",
+                "attributes": {
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ never reached",
+                            "line": 6,
+                            "filePos": 112,
+                            "tokenPos": 28,
+                            "endLine": 6,
+                            "endFilePos": 127,
+                            "endTokenPos": 28
+                        }
+                    ],
+                    "startLine": 6,
+                    "endLine": 6,
+                    "startFilePos": 128,
+                    "endFilePos": 127,
+                    "startTokenPos": 29,
+                    "endTokenPos": 28
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 9,
+            "endLine": 14
+        },
+        "cond": {
+            "nodeType": "Expr_FuncCall",
+            "attributes": {
+                "startLine": 9,
+                "endLine": 9
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9
+                },
+                "parts": [
+                    "condition1"
+                ]
+            },
+            "args": []
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_If",
+                "attributes": {
+                    "startLine": 10,
+                    "endLine": 12
+                },
+                "cond": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 10,
+                        "endLine": 10
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        },
+                        "parts": [
+                            "condition2"
+                        ]
+                    },
+                    "args": []
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Break",
+                        "attributes": {
+                            "startLine": 11,
+                            "endLine": 11
+                        },
+                        "num": null
+                    }
+                ],
+                "elseifs": [],
+                "else": null
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 13,
+                    "endLine": 13
+                },
+                "expr": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 13,
+                        "endLine": 13
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 13,
+                            "endLine": 13
+                        },
+                        "parts": [
+                            "sink3"
+                        ]
+                    },
+                    "args": [
+                        {
+                            "nodeType": "Arg",
+                            "attributes": {
+                                "startLine": 13,
+                                "endLine": 13
+                            },
+                            "name": null,
+                            "value": {
+                                "nodeType": "Expr_Variable",
+                                "attributes": {
+                                    "startLine": 13,
+                                    "endLine": 13
+                                },
+                                "name": "source4"
+                            },
+                            "byRef": false,
+                            "unpack": false
+                        }
+                    ]
+                }
+            },
+            {
+                "nodeType": "Stmt_Nop",
+                "attributes": {
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ reached",
+                            "line": 13,
+                            "filePos": 244,
+                            "tokenPos": 62,
+                            "endLine": 13,
+                            "endFilePos": 253,
+                            "endTokenPos": 62
+                        }
+                    ],
+                    "startLine": 13,
+                    "endLine": 13,
+                    "startFilePos": 254,
+                    "endFilePos": 253,
+                    "startTokenPos": 63,
+                    "endTokenPos": 62
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 16,
+            "endLine": 21
+        },
+        "cond": {
+            "nodeType": "Expr_FuncCall",
+            "attributes": {
+                "startLine": 16,
+                "endLine": 16
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 16,
+                    "endLine": 16
+                },
+                "parts": [
+                    "condition1"
+                ]
+            },
+            "args": []
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_If",
+                "attributes": {
+                    "startLine": 17,
+                    "endLine": 19
+                },
+                "cond": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 17,
+                        "endLine": 17
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 17,
+                            "endLine": 17
+                        },
+                        "parts": [
+                            "condition2"
+                        ]
+                    },
+                    "args": []
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Continue",
+                        "attributes": {
+                            "startLine": 18,
+                            "endLine": 18
+                        },
+                        "num": null
+                    }
+                ],
+                "elseifs": [],
+                "else": null
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 20,
+                    "endLine": 20
+                },
+                "expr": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 20,
+                        "endLine": 20
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 20,
+                            "endLine": 20
+                        },
+                        "parts": [
+                            "sink5"
+                        ]
+                    },
+                    "args": [
+                        {
+                            "nodeType": "Arg",
+                            "attributes": {
+                                "startLine": 20,
+                                "endLine": 20
+                            },
+                            "name": null,
+                            "value": {
+                                "nodeType": "Expr_Variable",
+                                "attributes": {
+                                    "startLine": 20,
+                                    "endLine": 20
+                                },
+                                "name": "source5"
+                            },
+                            "byRef": false,
+                            "unpack": false
+                        }
+                    ]
+                }
+            },
+            {
+                "nodeType": "Stmt_Nop",
+                "attributes": {
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ reached",
+                            "line": 20,
+                            "filePos": 373,
+                            "tokenPos": 96,
+                            "endLine": 20,
+                            "endFilePos": 382,
+                            "endTokenPos": 96
+                        }
+                    ],
+                    "startLine": 20,
+                    "endLine": 20,
+                    "startFilePos": 383,
+                    "endFilePos": 382,
+                    "startTokenPos": 97,
+                    "endTokenPos": 96
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 23,
+            "endLine": 33
+        },
+        "cond": {
+            "nodeType": "Expr_FuncCall",
+            "attributes": {
+                "startLine": 23,
+                "endLine": 23
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 23,
+                    "endLine": 23
+                },
+                "parts": [
+                    "condition1"
+                ]
+            },
+            "args": []
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_If",
+                "attributes": {
+                    "startLine": 24,
+                    "endLine": 31
+                },
+                "cond": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 24,
+                        "endLine": 24
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 24,
+                            "endLine": 24
+                        },
+                        "parts": [
+                            "condition2"
+                        ]
+                    },
+                    "args": []
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Continue",
+                        "attributes": {
+                            "startLine": 25,
+                            "endLine": 25
+                        },
+                        "num": null
+                    },
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "attributes": {
+                            "startLine": 26,
+                            "endLine": 26
+                        },
+                        "expr": {
+                            "nodeType": "Expr_FuncCall",
+                            "attributes": {
+                                "startLine": 26,
+                                "endLine": 26
+                            },
+                            "name": {
+                                "nodeType": "Name",
+                                "attributes": {
+                                    "startLine": 26,
+                                    "endLine": 26
+                                },
+                                "parts": [
+                                    "sink6"
+                                ]
+                            },
+                            "args": [
+                                {
+                                    "nodeType": "Arg",
+                                    "attributes": {
+                                        "startLine": 26,
+                                        "endLine": 26
+                                    },
+                                    "name": null,
+                                    "value": {
+                                        "nodeType": "Expr_Variable",
+                                        "attributes": {
+                                            "startLine": 26,
+                                            "endLine": 26
+                                        },
+                                        "name": "source6"
+                                    },
+                                    "byRef": false,
+                                    "unpack": false
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "Stmt_Nop",
+                        "attributes": {
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/ never reached",
+                                    "line": 26,
+                                    "filePos": 497,
+                                    "tokenPos": 129,
+                                    "endLine": 26,
+                                    "endFilePos": 512,
+                                    "endTokenPos": 129
+                                }
+                            ],
+                            "startLine": 26,
+                            "endLine": 26,
+                            "startFilePos": 513,
+                            "endFilePos": 512,
+                            "startTokenPos": 130,
+                            "endTokenPos": 129
+                        }
+                    }
+                ],
+                "elseifs": [],
+                "else": {
+                    "nodeType": "Stmt_Else",
+                    "attributes": {
+                        "startLine": 28,
+                        "endLine": 31
+                    },
+                    "stmts": [
+                        {
+                            "nodeType": "Stmt_Break",
+                            "attributes": {
+                                "startLine": 29,
+                                "endLine": 29
+                            },
+                            "num": null
+                        },
+                        {
+                            "nodeType": "Stmt_Expression",
+                            "attributes": {
+                                "startLine": 30,
+                                "endLine": 30
+                            },
+                            "expr": {
+                                "nodeType": "Expr_FuncCall",
+                                "attributes": {
+                                    "startLine": 30,
+                                    "endLine": 30
+                                },
+                                "name": {
+                                    "nodeType": "Name",
+                                    "attributes": {
+                                        "startLine": 30,
+                                        "endLine": 30
+                                    },
+                                    "parts": [
+                                        "sink7"
+                                    ]
+                                },
+                                "args": [
+                                    {
+                                        "nodeType": "Arg",
+                                        "attributes": {
+                                            "startLine": 30,
+                                            "endLine": 30
+                                        },
+                                        "name": null,
+                                        "value": {
+                                            "nodeType": "Expr_Variable",
+                                            "attributes": {
+                                                "startLine": 30,
+                                                "endLine": 30
+                                            },
+                                            "name": "source7"
+                                        },
+                                        "byRef": false,
+                                        "unpack": false
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nodeType": "Stmt_Nop",
+                            "attributes": {
+                                "comments": [
+                                    {
+                                        "nodeType": "Comment",
+                                        "text": "\/\/ never reached",
+                                        "line": 30,
+                                        "filePos": 586,
+                                        "tokenPos": 145,
+                                        "endLine": 30,
+                                        "endFilePos": 601,
+                                        "endTokenPos": 145
+                                    }
+                                ],
+                                "startLine": 30,
+                                "endLine": 30,
+                                "startFilePos": 602,
+                                "endFilePos": 601,
+                                "startTokenPos": 146,
+                                "endTokenPos": 145
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 32,
+                    "endLine": 32
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 32,
+                        "endLine": 32
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 32,
+                            "endLine": 32
+                        },
+                        "name": "sink8"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 32,
+                            "endLine": 32
+                        },
+                        "name": "source8"
+                    }
+                }
+            },
+            {
+                "nodeType": "Stmt_Nop",
+                "attributes": {
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ never reached",
+                            "line": 32,
+                            "filePos": 640,
+                            "tokenPos": 156,
+                            "endLine": 32,
+                            "endFilePos": 655,
+                            "endTokenPos": 156
+                        }
+                    ],
+                    "startLine": 32,
+                    "endLine": 32,
+                    "startFilePos": 656,
+                    "endFilePos": 655,
+                    "startTokenPos": 157,
+                    "endTokenPos": 156
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 36,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ tip: break\/continue in while cycle",
+                    "line": 35,
+                    "filePos": 668,
+                    "tokenPos": 160,
+                    "endLine": 35,
+                    "endFilePos": 704,
+                    "endTokenPos": 160
+                }
+            ],
+            "endLine": 36
+        }
+    }
+]

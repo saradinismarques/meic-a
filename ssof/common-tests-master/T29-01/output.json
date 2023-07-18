@@ -1,0 +1,58 @@
+[
+    {
+        "vulnerability": "Bitwise operator",
+        "source": "$_src",
+        "sink": "$S1",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Boolean not",
+        "source": "$_src",
+        "sink": "$S2",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Post increment",
+        "source": "$_src",
+        "sink": "$S3",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Pre increment",
+        "source": "$_src",
+        "sink": "$S4",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Post decrement",
+        "source": "$_src",
+        "sink": "$S5",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Pre decrement",
+        "source": "$_src",
+        "sink": "$S6",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Array dim fetch",
+        "source": "$_GET",
+        "sink": "$S7",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Assign op",
+        "source": "$_src",
+        "sink": "$S8",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

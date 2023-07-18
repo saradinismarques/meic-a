@@ -1,0 +1,204 @@
+[
+    {
+        "nodeType": "Stmt_If",
+        "cond": {
+            "nodeType": "Expr_ConstFetch",
+            "name": {
+                "nodeType": "Name",
+                "parts": [
+                    "true"
+                ],
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                }
+            },
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_If",
+                "cond": {
+                    "nodeType": "Expr_Variable",
+                    "name": "cond1",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    }
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "expr": {
+                            "nodeType": "Expr_Assign",
+                            "var": {
+                                "nodeType": "Expr_Variable",
+                                "name": "a",
+                                "attributes": {
+                                    "startLine": 5,
+                                    "endLine": 5
+                                }
+                            },
+                            "expr": {
+                                "nodeType": "Expr_Variable",
+                                "name": "source1",
+                                "attributes": {
+                                    "startLine": 5,
+                                    "endLine": 5
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 5,
+                                "endLine": 5
+                            }
+                        },
+                        "attributes": {
+                            "startLine": 5,
+                            "endLine": 5
+                        }
+                    }
+                ],
+                "elseifs": [],
+                "else": {
+                    "nodeType": "Stmt_Else",
+                    "stmts": [
+                        {
+                            "nodeType": "Stmt_Expression",
+                            "expr": {
+                                "nodeType": "Expr_Assign",
+                                "var": {
+                                    "nodeType": "Expr_Variable",
+                                    "name": "a",
+                                    "attributes": {
+                                        "startLine": 7,
+                                        "endLine": 7
+                                    }
+                                },
+                                "expr": {
+                                    "nodeType": "Expr_Variable",
+                                    "name": "source2",
+                                    "attributes": {
+                                        "startLine": 7,
+                                        "endLine": 7
+                                    }
+                                },
+                                "attributes": {
+                                    "startLine": 7,
+                                    "endLine": 7
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 7,
+                                "endLine": 7
+                            }
+                        }
+                    ],
+                    "attributes": {
+                        "startLine": 6,
+                        "endLine": 8
+                    }
+                },
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 8
+                }
+            },
+            {
+                "nodeType": "Stmt_If",
+                "cond": {
+                    "nodeType": "Expr_Variable",
+                    "name": "cond2",
+                    "attributes": {
+                        "startLine": 9,
+                        "endLine": 9
+                    }
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "expr": {
+                            "nodeType": "Expr_Assign",
+                            "var": {
+                                "nodeType": "Expr_Variable",
+                                "name": "sink1",
+                                "attributes": {
+                                    "startLine": 10,
+                                    "endLine": 10
+                                }
+                            },
+                            "expr": {
+                                "nodeType": "Expr_Variable",
+                                "name": "a",
+                                "attributes": {
+                                    "startLine": 10,
+                                    "endLine": 10
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 10,
+                                "endLine": 10
+                            }
+                        },
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        }
+                    }
+                ],
+                "elseifs": [],
+                "else": {
+                    "nodeType": "Stmt_Else",
+                    "stmts": [
+                        {
+                            "nodeType": "Stmt_Expression",
+                            "expr": {
+                                "nodeType": "Expr_Assign",
+                                "var": {
+                                    "nodeType": "Expr_Variable",
+                                    "name": "sink2",
+                                    "attributes": {
+                                        "startLine": 12,
+                                        "endLine": 12
+                                    }
+                                },
+                                "expr": {
+                                    "nodeType": "Expr_Variable",
+                                    "name": "a",
+                                    "attributes": {
+                                        "startLine": 12,
+                                        "endLine": 12
+                                    }
+                                },
+                                "attributes": {
+                                    "startLine": 12,
+                                    "endLine": 12
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12
+                            }
+                        }
+                    ],
+                    "attributes": {
+                        "startLine": 11,
+                        "endLine": 13
+                    }
+                },
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 13
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null,
+        "attributes": {
+            "startLine": 3,
+            "endLine": 14
+        }
+    }
+]

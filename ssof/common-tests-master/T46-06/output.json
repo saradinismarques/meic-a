@@ -1,0 +1,9 @@
+[
+    {
+        "vulnerability": "Sink uninitialized self assignment",
+        "source": "$sink",
+        "sink": "$sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

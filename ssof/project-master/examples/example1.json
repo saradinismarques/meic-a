@@ -1,0 +1,21 @@
+[
+    {
+        "nodeType": "Stmt_Echo",
+        "attributes": {
+            "startLine": 2,
+            "endLine": 2
+        },
+        "exprs": [
+            {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2,
+                    "kind": 1,
+                    "rawValue": "'<p>Hello World<\/p>'"
+                },
+                "value": "<p>Hello World<\/p>"
+            }
+        ]
+    }
+]

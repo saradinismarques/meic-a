@@ -1,0 +1,9 @@
+[
+    {
+        "vulnerability": "Sink uninitialized self assignment",
+        "sources": [],
+        "sanitizers": [],
+        "sinks": ["$sink"],
+        "implicit": "no"
+    }
+]

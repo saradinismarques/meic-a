@@ -1,0 +1,878 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 3,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/Assign Operations Testing",
+                    "line": 2,
+                    "filePos": 7,
+                    "tokenPos": 2,
+                    "endLine": 2,
+                    "endFilePos": 33,
+                    "endTokenPos": 2
+                }
+            ],
+            "endLine": 3
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 3,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/Assign Operations Testing",
+                        "line": 2,
+                        "filePos": 7,
+                        "tokenPos": 2,
+                        "endLine": 2,
+                        "endFilePos": 33,
+                        "endTokenPos": 2
+                    }
+                ],
+                "endLine": 3
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 3,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/Assign Operations Testing",
+                            "line": 2,
+                            "filePos": 7,
+                            "tokenPos": 2,
+                            "endLine": 2,
+                            "endFilePos": 33,
+                            "endTokenPos": 2
+                        }
+                    ],
+                    "endLine": 3
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3,
+                    "rawValue": "3",
+                    "kind": 10
+                },
+                "value": 3
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 4,
+            "endLine": 4
+        },
+        "expr": {
+            "nodeType": "Expr_AssignOp_Plus",
+            "attributes": {
+                "startLine": 4,
+                "endLine": 4
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 5,
+            "endLine": 5
+        },
+        "expr": {
+            "nodeType": "Expr_AssignOp_Minus",
+            "attributes": {
+                "startLine": 5,
+                "endLine": 5
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 6,
+            "endLine": 6
+        },
+        "expr": {
+            "nodeType": "Expr_AssignOp_Mul",
+            "attributes": {
+                "startLine": 6,
+                "endLine": 6
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 7,
+            "endLine": 7
+        },
+        "expr": {
+            "nodeType": "Expr_AssignOp_Div",
+            "attributes": {
+                "startLine": 7,
+                "endLine": 7
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 8,
+            "endLine": 8
+        },
+        "expr": {
+            "nodeType": "Expr_AssignOp_Mod",
+            "attributes": {
+                "startLine": 8,
+                "endLine": 8
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 8,
+                    "endLine": 8
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 8,
+                    "endLine": 8,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 9,
+            "endLine": 9
+        },
+        "expr": {
+            "nodeType": "Expr_AssignOp_Pow",
+            "attributes": {
+                "startLine": 9,
+                "endLine": 9
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9,
+                    "rawValue": "2",
+                    "kind": 10
+                },
+                "value": 2
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 12,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/Binary Operations",
+                    "line": 11,
+                    "filePos": 107,
+                    "tokenPos": 53,
+                    "endLine": 11,
+                    "endFilePos": 125,
+                    "endTokenPos": 53
+                }
+            ],
+            "endLine": 12
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 12,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/Binary Operations",
+                        "line": 11,
+                        "filePos": 107,
+                        "tokenPos": 53,
+                        "endLine": 11,
+                        "endFilePos": 125,
+                        "endTokenPos": 53
+                    }
+                ],
+                "endLine": 12
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 12,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/Binary Operations",
+                            "line": 11,
+                            "filePos": 107,
+                            "tokenPos": 53,
+                            "endLine": 11,
+                            "endFilePos": 125,
+                            "endTokenPos": 53
+                        }
+                    ],
+                    "endLine": 12
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_Plus",
+                "attributes": {
+                    "startLine": 12,
+                    "endLine": 12
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 12,
+                        "endLine": 12
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 12,
+                        "endLine": 12,
+                        "rawValue": "1",
+                        "kind": 10
+                    },
+                    "value": 1
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 13,
+            "endLine": 13
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 13,
+                "endLine": 13
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 13,
+                    "endLine": 13
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_Minus",
+                "attributes": {
+                    "startLine": 13,
+                    "endLine": 13
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 13,
+                        "endLine": 13
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 13,
+                        "endLine": 13,
+                        "rawValue": "1",
+                        "kind": 10
+                    },
+                    "value": 1
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 14,
+            "endLine": 14
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 14,
+                "endLine": 14
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 14,
+                    "endLine": 14
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_Mul",
+                "attributes": {
+                    "startLine": 14,
+                    "endLine": 14
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 14,
+                        "endLine": 14
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 14,
+                        "endLine": 14,
+                        "rawValue": "1",
+                        "kind": 10
+                    },
+                    "value": 1
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 15,
+            "endLine": 15
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 15,
+                "endLine": 15
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 15,
+                    "endLine": 15
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_Div",
+                "attributes": {
+                    "startLine": 15,
+                    "endLine": 15
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 15,
+                        "endLine": 15
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 15,
+                        "endLine": 15,
+                        "rawValue": "1",
+                        "kind": 10
+                    },
+                    "value": 1
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 16,
+            "endLine": 16
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 16,
+                "endLine": 16
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 16,
+                    "endLine": 16
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_Mod",
+                "attributes": {
+                    "startLine": 16,
+                    "endLine": 16
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 16,
+                        "endLine": 16
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 16,
+                        "endLine": 16,
+                        "rawValue": "1",
+                        "kind": 10
+                    },
+                    "value": 1
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 17,
+            "endLine": 17
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 17,
+                "endLine": 17
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 17,
+                    "endLine": 17
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_Pow",
+                "attributes": {
+                    "startLine": 17,
+                    "endLine": 17
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 17,
+                        "endLine": 17
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 17,
+                        "endLine": 17,
+                        "rawValue": "2",
+                        "kind": 10
+                    },
+                    "value": 2
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 20,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ Bitwise Operations",
+                    "line": 19,
+                    "filePos": 212,
+                    "tokenPos": 119,
+                    "endLine": 19,
+                    "endFilePos": 232,
+                    "endTokenPos": 119
+                }
+            ],
+            "endLine": 20
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 20,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ Bitwise Operations",
+                        "line": 19,
+                        "filePos": 212,
+                        "tokenPos": 119,
+                        "endLine": 19,
+                        "endFilePos": 232,
+                        "endTokenPos": 119
+                    }
+                ],
+                "endLine": 20
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 20,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ Bitwise Operations",
+                            "line": 19,
+                            "filePos": 212,
+                            "tokenPos": 119,
+                            "endLine": 19,
+                            "endFilePos": 232,
+                            "endTokenPos": 119
+                        }
+                    ],
+                    "endLine": 20
+                },
+                "name": "c"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_BitwiseAnd",
+                "attributes": {
+                    "startLine": 20,
+                    "endLine": 20
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 20,
+                        "endLine": 20
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 20,
+                        "endLine": 20
+                    },
+                    "name": "b"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 21,
+            "endLine": 21
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 21,
+                "endLine": 21
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 21,
+                    "endLine": 21
+                },
+                "name": "c"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_BitwiseOr",
+                "attributes": {
+                    "startLine": 21,
+                    "endLine": 21
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 21,
+                        "endLine": 21
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 21,
+                        "endLine": 21
+                    },
+                    "name": "b"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 22,
+            "endLine": 22
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 22,
+                "endLine": 22
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 22,
+                    "endLine": 22
+                },
+                "name": "c"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_BitwiseXor",
+                "attributes": {
+                    "startLine": 22,
+                    "endLine": 22
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 22,
+                        "endLine": 22
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 22,
+                        "endLine": 22
+                    },
+                    "name": "b"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 23,
+            "endLine": 23
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 23,
+                "endLine": 23
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 23,
+                    "endLine": 23
+                },
+                "name": "c"
+            },
+            "expr": {
+                "nodeType": "Expr_BitwiseNot",
+                "attributes": {
+                    "startLine": 23,
+                    "endLine": 23
+                },
+                "expr": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 23,
+                        "endLine": 23
+                    },
+                    "name": "a"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 24,
+            "endLine": 24
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 24,
+                "endLine": 24
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 24,
+                    "endLine": 24
+                },
+                "name": "c"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_ShiftLeft",
+                "attributes": {
+                    "startLine": 24,
+                    "endLine": 24
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 24,
+                        "endLine": 24
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 24,
+                        "endLine": 24
+                    },
+                    "name": "b"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 25,
+            "endLine": 25
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 25,
+                "endLine": 25
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 25,
+                    "endLine": 25
+                },
+                "name": "c"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_ShiftRight",
+                "attributes": {
+                    "startLine": 25,
+                    "endLine": 25
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 25,
+                        "endLine": 25
+                    },
+                    "name": "a"
+                },
+                "right": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 25,
+                        "endLine": 25
+                    },
+                    "name": "b"
+                }
+            }
+        }
+    }
+]

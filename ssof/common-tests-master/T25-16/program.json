@@ -1,0 +1,97 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "a",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "name": "source",
+                "attributes": {
+                    "startLine": 2,
+                    "endLine": 2
+                }
+            },
+            "attributes": {
+                "startLine": 2,
+                "endLine": 2
+            }
+        },
+        "attributes": {
+            "startLine": 2,
+            "endLine": 2
+        }
+    },
+    {
+        "nodeType": "Stmt_If",
+        "cond": {
+            "nodeType": "Expr_Variable",
+            "name": "a",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_Exit",
+                    "expr": null,
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4,
+                        "kind": 1
+                    }
+                },
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": null,
+        "attributes": {
+            "startLine": 3,
+            "endLine": 5
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "sink",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "name": "a",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                }
+            },
+            "attributes": {
+                "startLine": 6,
+                "endLine": 6
+            }
+        },
+        "attributes": {
+            "startLine": 6,
+            "endLine": 6
+        }
+    }
+]

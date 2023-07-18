@@ -1,0 +1,27 @@
+[
+    {
+        "vulnerability": "SQL injection",
+        "source": "$_GET",
+        "sink": "mysql_query",
+        "unsanitized flows": "yes",
+        "sanitized flows": [
+            [
+                "mysql_real_escape_string"
+            ]
+        ]
+    },
+    {
+        "vulnerability": "SQL Query Echo",
+        "source": "$q",
+        "sink": "echo",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "SQL Query Echo",
+        "source": "$_GET",
+        "sink": "echo",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

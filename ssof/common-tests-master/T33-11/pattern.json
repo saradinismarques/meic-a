@@ -1,0 +1,19 @@
+[
+    {
+        "vulnerability": "A",
+        "sources": [
+            "$b"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$lt",
+            "$le",
+            "$gt",
+            "$ge",
+            "$eq",
+            "$ne",
+            "$mod"
+        ],
+        "implicit": "no"
+    }
+]

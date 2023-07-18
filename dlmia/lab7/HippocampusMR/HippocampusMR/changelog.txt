@@ -1,0 +1,36 @@
+Version 1.1
+
+New:
+    - Released Testing Data (images,masks) for following Tasks:
+            -AbdomenCTCT
+            -AbdomenCTMR
+            -HippocampusMR
+            -LungCT
+            -OASIS
+    - Released Validation Image Data for NLST. Please validate your method on https://learn2reg.grand-challenge.org/
+
+Fixes:
+    - All: Added JSON-Key "img_shift", denoting the image shift between fixed and moving images (e.g. inhale/exhale)
+    - NLST:
+        - Removed faulty Case #33.
+        - Updated Validation Cases is dataset_json
+    - CuRIOUS:
+        - fixed some json keys in dataset_json
+
+
+____________
+Version 1.00
+Initial Release of L2R_Dataset.
+
+Contains Training/Validation Data of following Tasks:
+
+    -AbdomenCTCT
+    -AbdomenCTMR
+    -CuRIOUS
+    -HippocampusMR
+    -LungCT
+    -OASIS
+
+Contains a subset of Training Data of:
+
+    -NLST (no Validation Data yet. See https://learn2reg.grand-challenge.org/ for more information)

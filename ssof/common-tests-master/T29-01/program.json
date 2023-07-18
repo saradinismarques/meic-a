@@ -1,0 +1,977 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 4,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/\/ the following lines have no vulnerabilities, but should be parsed successfully",
+                    "line": 2,
+                    "filePos": 7,
+                    "tokenPos": 2,
+                    "endLine": 2,
+                    "endFilePos": 88,
+                    "endTokenPos": 2
+                },
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ literals",
+                    "line": 3,
+                    "filePos": 91,
+                    "tokenPos": 4,
+                    "endLine": 3,
+                    "endFilePos": 101,
+                    "endTokenPos": 4
+                }
+            ],
+            "endLine": 4
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 4,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/\/ the following lines have no vulnerabilities, but should be parsed successfully",
+                        "line": 2,
+                        "filePos": 7,
+                        "tokenPos": 2,
+                        "endLine": 2,
+                        "endFilePos": 88,
+                        "endTokenPos": 2
+                    },
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ literals",
+                        "line": 3,
+                        "filePos": 91,
+                        "tokenPos": 4,
+                        "endLine": 3,
+                        "endFilePos": 101,
+                        "endTokenPos": 4
+                    }
+                ],
+                "endLine": 4
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 4,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/\/ the following lines have no vulnerabilities, but should be parsed successfully",
+                            "line": 2,
+                            "filePos": 7,
+                            "tokenPos": 2,
+                            "endLine": 2,
+                            "endFilePos": 88,
+                            "endTokenPos": 2
+                        },
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ literals",
+                            "line": 3,
+                            "filePos": 91,
+                            "tokenPos": 4,
+                            "endLine": 3,
+                            "endFilePos": 101,
+                            "endTokenPos": 4
+                        }
+                    ],
+                    "endLine": 4
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4,
+                    "rawValue": "3",
+                    "kind": 10
+                },
+                "value": 3
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 5,
+            "endLine": 5
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 5,
+                "endLine": 5
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 5,
+                    "kind": 2,
+                    "rawValue": "\"test\""
+                },
+                "value": "test"
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 6,
+            "endLine": 6
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 6,
+                "endLine": 6
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Scalar_DNumber",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6,
+                    "rawValue": "3.14"
+                },
+                "value": 3.14
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 7,
+            "endLine": 7
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 7,
+                "endLine": 7
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 10,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ const",
+                    "line": 9,
+                    "filePos": 153,
+                    "tokenPos": 34,
+                    "endLine": 9,
+                    "endFilePos": 160,
+                    "endTokenPos": 34
+                }
+            ],
+            "endLine": 10
+        },
+        "expr": {
+            "nodeType": "Expr_FuncCall",
+            "attributes": {
+                "startLine": 10,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ const",
+                        "line": 9,
+                        "filePos": 153,
+                        "tokenPos": 34,
+                        "endLine": 9,
+                        "endFilePos": 160,
+                        "endTokenPos": 34
+                    }
+                ],
+                "endLine": 10
+            },
+            "name": {
+                "nodeType": "Name",
+                "attributes": {
+                    "startLine": 10,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ const",
+                            "line": 9,
+                            "filePos": 153,
+                            "tokenPos": 34,
+                            "endLine": 9,
+                            "endFilePos": 160,
+                            "endTokenPos": 34
+                        }
+                    ],
+                    "endLine": 10
+                },
+                "parts": [
+                    "define"
+                ]
+            },
+            "args": [
+                {
+                    "nodeType": "Arg",
+                    "attributes": {
+                        "startLine": 10,
+                        "endLine": 10
+                    },
+                    "name": null,
+                    "value": {
+                        "nodeType": "Scalar_String",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10,
+                            "kind": 2,
+                            "rawValue": "\"TEST\""
+                        },
+                        "value": "TEST"
+                    },
+                    "byRef": false,
+                    "unpack": false
+                },
+                {
+                    "nodeType": "Arg",
+                    "attributes": {
+                        "startLine": 10,
+                        "endLine": 10
+                    },
+                    "name": null,
+                    "value": {
+                        "nodeType": "Scalar_LNumber",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10,
+                            "rawValue": "3",
+                            "kind": 10
+                        },
+                        "value": 3
+                    },
+                    "byRef": false,
+                    "unpack": false
+                }
+            ]
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 11,
+            "endLine": 11
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 11,
+                "endLine": 11
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 11
+                },
+                "name": "a"
+            },
+            "expr": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 11
+                },
+                "name": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 11,
+                        "endLine": 11
+                    },
+                    "parts": [
+                        "test"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Echo",
+        "attributes": {
+            "startLine": 14,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ echo",
+                    "line": 13,
+                    "filePos": 196,
+                    "tokenPos": 52,
+                    "endLine": 13,
+                    "endFilePos": 202,
+                    "endTokenPos": 52
+                }
+            ],
+            "endLine": 14
+        },
+        "exprs": [
+            {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 14,
+                    "endLine": 14,
+                    "kind": 2,
+                    "rawValue": "\"Hello\""
+                },
+                "value": "Hello"
+            },
+            {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 14,
+                    "endLine": 14,
+                    "kind": 2,
+                    "rawValue": "\" \""
+                },
+                "value": " "
+            },
+            {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 14,
+                    "endLine": 14,
+                    "kind": 2,
+                    "rawValue": "\"World!\""
+                },
+                "value": "World!"
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 18,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/\/ the following lines should all result in vulnerabilities of source \"$_src\" and sink \"$S<num>\"",
+                    "line": 16,
+                    "filePos": 236,
+                    "tokenPos": 65,
+                    "endLine": 16,
+                    "endFilePos": 332,
+                    "endTokenPos": 65
+                },
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ bitwise operation",
+                    "line": 17,
+                    "filePos": 335,
+                    "tokenPos": 67,
+                    "endLine": 17,
+                    "endFilePos": 354,
+                    "endTokenPos": 67
+                }
+            ],
+            "endLine": 18
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 18,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/\/ the following lines should all result in vulnerabilities of source \"$_src\" and sink \"$S<num>\"",
+                        "line": 16,
+                        "filePos": 236,
+                        "tokenPos": 65,
+                        "endLine": 16,
+                        "endFilePos": 332,
+                        "endTokenPos": 65
+                    },
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ bitwise operation",
+                        "line": 17,
+                        "filePos": 335,
+                        "tokenPos": 67,
+                        "endLine": 17,
+                        "endFilePos": 354,
+                        "endTokenPos": 67
+                    }
+                ],
+                "endLine": 18
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 18,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/\/ the following lines should all result in vulnerabilities of source \"$_src\" and sink \"$S<num>\"",
+                            "line": 16,
+                            "filePos": 236,
+                            "tokenPos": 65,
+                            "endLine": 16,
+                            "endFilePos": 332,
+                            "endTokenPos": 65
+                        },
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ bitwise operation",
+                            "line": 17,
+                            "filePos": 335,
+                            "tokenPos": 67,
+                            "endLine": 17,
+                            "endFilePos": 354,
+                            "endTokenPos": 67
+                        }
+                    ],
+                    "endLine": 18
+                },
+                "name": "_src"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 18,
+                    "endLine": 18,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 19,
+            "endLine": 19
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 19,
+                "endLine": 19
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 19,
+                    "endLine": 19
+                },
+                "name": "S1"
+            },
+            "expr": {
+                "nodeType": "Expr_BinaryOp_BitwiseOr",
+                "attributes": {
+                    "startLine": 19,
+                    "endLine": 19
+                },
+                "left": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "rawValue": "0",
+                        "kind": 10
+                    },
+                    "value": 0
+                },
+                "right": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 19,
+                        "endLine": 19
+                    },
+                    "name": "_src"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 22,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ boolean not",
+                    "line": 21,
+                    "filePos": 388,
+                    "tokenPos": 87,
+                    "endLine": 21,
+                    "endFilePos": 401,
+                    "endTokenPos": 87
+                }
+            ],
+            "endLine": 22
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 22,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ boolean not",
+                        "line": 21,
+                        "filePos": 388,
+                        "tokenPos": 87,
+                        "endLine": 21,
+                        "endFilePos": 401,
+                        "endTokenPos": 87
+                    }
+                ],
+                "endLine": 22
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 22,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ boolean not",
+                            "line": 21,
+                            "filePos": 388,
+                            "tokenPos": 87,
+                            "endLine": 21,
+                            "endFilePos": 401,
+                            "endTokenPos": 87
+                        }
+                    ],
+                    "endLine": 22
+                },
+                "name": "S2"
+            },
+            "expr": {
+                "nodeType": "Expr_BooleanNot",
+                "attributes": {
+                    "startLine": 22,
+                    "endLine": 22
+                },
+                "expr": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 22,
+                        "endLine": 22
+                    },
+                    "name": "_src"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 25,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ increment\/decrement",
+                    "line": 24,
+                    "filePos": 420,
+                    "tokenPos": 97,
+                    "endLine": 24,
+                    "endFilePos": 441,
+                    "endTokenPos": 97
+                }
+            ],
+            "endLine": 25
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 25,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ increment\/decrement",
+                        "line": 24,
+                        "filePos": 420,
+                        "tokenPos": 97,
+                        "endLine": 24,
+                        "endFilePos": 441,
+                        "endTokenPos": 97
+                    }
+                ],
+                "endLine": 25
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 25,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ increment\/decrement",
+                            "line": 24,
+                            "filePos": 420,
+                            "tokenPos": 97,
+                            "endLine": 24,
+                            "endFilePos": 441,
+                            "endTokenPos": 97
+                        }
+                    ],
+                    "endLine": 25
+                },
+                "name": "S3"
+            },
+            "expr": {
+                "nodeType": "Expr_PostInc",
+                "attributes": {
+                    "startLine": 25,
+                    "endLine": 25
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 25,
+                        "endLine": 25
+                    },
+                    "name": "_src"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 26,
+            "endLine": 26
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 26,
+                "endLine": 26
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 26,
+                    "endLine": 26
+                },
+                "name": "S4"
+            },
+            "expr": {
+                "nodeType": "Expr_PreInc",
+                "attributes": {
+                    "startLine": 26,
+                    "endLine": 26
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 26,
+                        "endLine": 26
+                    },
+                    "name": "_src"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 27,
+            "endLine": 27
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 27,
+                "endLine": 27
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 27,
+                    "endLine": 27
+                },
+                "name": "S5"
+            },
+            "expr": {
+                "nodeType": "Expr_PostDec",
+                "attributes": {
+                    "startLine": 27,
+                    "endLine": 27
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 27,
+                        "endLine": 27
+                    },
+                    "name": "_src"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 28,
+            "endLine": 28
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 28,
+                "endLine": 28
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 28,
+                    "endLine": 28
+                },
+                "name": "S6"
+            },
+            "expr": {
+                "nodeType": "Expr_PreDec",
+                "attributes": {
+                    "startLine": 28,
+                    "endLine": 28
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 28,
+                        "endLine": 28
+                    },
+                    "name": "_src"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 31,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ array dim fetch",
+                    "line": 30,
+                    "filePos": 509,
+                    "tokenPos": 131,
+                    "endLine": 30,
+                    "endFilePos": 526,
+                    "endTokenPos": 131
+                }
+            ],
+            "endLine": 31
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 31,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ array dim fetch",
+                        "line": 30,
+                        "filePos": 509,
+                        "tokenPos": 131,
+                        "endLine": 30,
+                        "endFilePos": 526,
+                        "endTokenPos": 131
+                    }
+                ],
+                "endLine": 31
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 31,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ array dim fetch",
+                            "line": 30,
+                            "filePos": 509,
+                            "tokenPos": 131,
+                            "endLine": 30,
+                            "endFilePos": 526,
+                            "endTokenPos": 131
+                        }
+                    ],
+                    "endLine": 31
+                },
+                "name": "S7"
+            },
+            "expr": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "attributes": {
+                    "startLine": 31,
+                    "endLine": 31
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 31,
+                        "endLine": 31
+                    },
+                    "name": "_GET"
+                },
+                "dim": {
+                    "nodeType": "Scalar_String",
+                    "attributes": {
+                        "startLine": 31,
+                        "endLine": 31,
+                        "kind": 2,
+                        "rawValue": "\"username\""
+                    },
+                    "value": "username"
+                }
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 34,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ assign op",
+                    "line": 33,
+                    "filePos": 556,
+                    "tokenPos": 143,
+                    "endLine": 33,
+                    "endFilePos": 567,
+                    "endTokenPos": 143
+                }
+            ],
+            "endLine": 34
+        },
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "attributes": {
+                "startLine": 34,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/\/ assign op",
+                        "line": 33,
+                        "filePos": 556,
+                        "tokenPos": 143,
+                        "endLine": 33,
+                        "endFilePos": 567,
+                        "endTokenPos": 143
+                    }
+                ],
+                "endLine": 34
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 34,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/\/ assign op",
+                            "line": 33,
+                            "filePos": 556,
+                            "tokenPos": 143,
+                            "endLine": 33,
+                            "endFilePos": 567,
+                            "endTokenPos": 143
+                        }
+                    ],
+                    "endLine": 34
+                },
+                "name": "S8"
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 34,
+                    "endLine": 34,
+                    "rawValue": "0",
+                    "kind": 10
+                },
+                "value": 0
+            }
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "attributes": {
+            "startLine": 35,
+            "endLine": 35
+        },
+        "expr": {
+            "nodeType": "Expr_AssignOp_Plus",
+            "attributes": {
+                "startLine": 35,
+                "endLine": 35
+            },
+            "var": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 35,
+                    "endLine": 35
+                },
+                "name": "S8"
+            },
+            "expr": {
+                "nodeType": "Expr_Variable",
+                "attributes": {
+                    "startLine": 35,
+                    "endLine": 35
+                },
+                "name": "_src"
+            }
+        }
+    }
+]

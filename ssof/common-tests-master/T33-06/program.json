@@ -1,0 +1,149 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "b",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                }
+            },
+            "expr": {
+                "nodeType": "Scalar_LNumber",
+                "value": 123,
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3,
+                    "rawValue": "123",
+                    "kind": 10
+                }
+            },
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            }
+        },
+        "attributes": {
+            "startLine": 3,
+            "endLine": 3
+        }
+    },
+    {
+        "nodeType": "Stmt_While",
+        "cond": {
+            "nodeType": "Expr_Variable",
+            "name": "a",
+            "attributes": {
+                "startLine": 5,
+                "endLine": 5
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "name": "a",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        }
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "name": "b",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 6,
+                        "endLine": 6
+                    }
+                },
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "name": "b",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        }
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "name": "c",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7
+                    }
+                },
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                }
+            },
+            {
+                "nodeType": "Stmt_Break",
+                "num": null,
+                "attributes": {
+                    "startLine": 8,
+                    "endLine": 8
+                }
+            },
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "name": "a",
+                        "attributes": {
+                            "startLine": 9,
+                            "endLine": 9
+                        }
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "name": "x",
+                        "attributes": {
+                            "startLine": 9,
+                            "endLine": 9
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 9,
+                        "endLine": 9
+                    }
+                },
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9
+                }
+            }
+        ],
+        "attributes": {
+            "startLine": 5,
+            "endLine": 10
+        }
+    }
+]

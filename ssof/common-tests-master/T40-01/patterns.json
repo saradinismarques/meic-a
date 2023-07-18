@@ -1,0 +1,24 @@
+[
+    {
+        "vulnerability": "A",
+        "sources": [
+            "input"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "funccall1"
+        ],
+        "implicit": "yes"
+    },
+    {
+        "vulnerability": "B",
+        "sources": [
+            "input"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "funccall2"
+        ],
+        "implicit": "yes"
+    }
+]

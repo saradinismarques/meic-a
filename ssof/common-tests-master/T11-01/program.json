@@ -1,0 +1,339 @@
+[    
+    {
+        "nodeType": "Stmt_For",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 5
+        },
+        "init": [
+            {
+                "nodeType": "Expr_Assign",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "i"
+                },
+                "expr": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3,
+                        "rawValue": "1",
+                        "kind": 10
+                    },
+                    "value": 1
+                }
+            }
+        ],
+        "cond": [
+            {
+                "nodeType": "Expr_BinaryOp_Smaller",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "i"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3,
+                        "rawValue": "10",
+                        "kind": 10
+                    },
+                    "value": 10
+                }
+            }
+        ],
+        "loop": [
+            {
+                "nodeType": "Expr_PreInc",
+                "attributes": {
+                    "startLine": 3,
+                    "endLine": 3
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 3,
+                        "endLine": 3
+                    },
+                    "name": "i"
+                }
+            }
+        ],
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "name": "sink"
+                    },
+                    "expr": {
+                        "nodeType": "Expr_FuncCall",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "name": {
+                            "nodeType": "Name",
+                            "attributes": {
+                                "startLine": 4,
+                                "endLine": 4
+                            },
+                            "parts": [
+                                "source"
+                            ]
+                        },
+                        "args": []
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_For",
+        "attributes": {
+            "startLine": 7,
+            "endLine": 9
+        },
+        "init": [
+            {
+                "nodeType": "Expr_Assign",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7
+                    },
+                    "name": "source1"
+                },
+                "expr": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7,
+                        "rawValue": "1",
+                        "kind": 10
+                    },
+                    "value": 1
+                }
+            }
+        ],
+        "cond": [
+            {
+                "nodeType": "Expr_BinaryOp_Smaller",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7
+                    },
+                    "name": "source1"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7,
+                        "rawValue": "10",
+                        "kind": 10
+                    },
+                    "value": 10
+                }
+            }
+        ],
+        "loop": [
+            {
+                "nodeType": "Expr_PreInc",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 7,
+                        "endLine": 7
+                    },
+                    "name": "source1"
+                }
+            }
+        ],
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 8,
+                    "endLine": 8
+                },
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "attributes": {
+                        "startLine": 8,
+                        "endLine": 8
+                    },
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "attributes": {
+                            "startLine": 8,
+                            "endLine": 8
+                        },
+                        "name": "sink1"
+                    },
+                    "expr": {
+                        "nodeType": "Scalar_String",
+                        "attributes": {
+                            "startLine": 8,
+                            "endLine": 8,
+                            "kind": 2,
+                            "rawValue": "\"ola\""
+                        },
+                        "value": "ola"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_For",
+        "attributes": {
+            "startLine": 11,
+            "endLine": 13
+        },
+        "init": [
+            {
+                "nodeType": "Expr_Assign",
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 11
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 11,
+                        "endLine": 11
+                    },
+                    "name": "sink2"
+                },
+                "expr": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 11,
+                        "endLine": 11
+                    },
+                    "name": "source2"
+                }
+            }
+        ],
+        "cond": [
+            {
+                "nodeType": "Expr_BinaryOp_Greater",
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 11
+                },
+                "left": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 11,
+                        "endLine": 11
+                    },
+                    "name": "sink2"
+                },
+                "right": {
+                    "nodeType": "Scalar_LNumber",
+                    "attributes": {
+                        "startLine": 11,
+                        "endLine": 11,
+                        "rawValue": "5",
+                        "kind": 10
+                    },
+                    "value": 5
+                }
+            }
+        ],
+        "loop": [
+            {
+                "nodeType": "Expr_PreDec",
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 11
+                },
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 11,
+                        "endLine": 11
+                    },
+                    "name": "sink2"
+                }
+            }
+        ],
+        "stmts": [
+            {
+                "nodeType": "Stmt_Break",
+                "attributes": {
+                    "startLine": 12,
+                    "endLine": 12
+                },
+                "num": null
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 16,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ tip: for cycle",
+                    "line": 15,
+                    "filePos": 240,
+                    "tokenPos": 96,
+                    "endLine": 15,
+                    "endFilePos": 256,
+                    "endTokenPos": 96
+                }
+            ],
+            "endLine": 16
+        }
+    }
+]

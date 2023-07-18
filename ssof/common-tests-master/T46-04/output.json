@@ -1,0 +1,9 @@
+[
+    {
+        "vulnerability": "Deep While",
+        "source": "source",
+        "sink": "sink",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "vulnerability": "IF",
+        "sources": [
+            "$a"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "e1",
+            "e2",
+            "e3",
+            "e4"
+        ],
+        "implicit": "yes"
+    },
+    {
+        "vulnerability": "WHILE",
+        "sources": [
+            "$aa"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "ww"
+        ],
+        "implicit": "yes"
+    },
+    {
+        "vulnerability": "NESTED",
+        "sources": [
+            "$aw"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "zw"
+        ],
+        "implicit": "yes"
+    }
+]

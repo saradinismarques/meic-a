@@ -1,0 +1,13 @@
+[
+    {
+        "vulnerability": "A",
+        "sources": [
+            "$_GET"
+        ],
+        "sanitizers": [],
+        "sinks": [
+            "$a"
+        ],
+        "implicit": "yes"
+    }
+]

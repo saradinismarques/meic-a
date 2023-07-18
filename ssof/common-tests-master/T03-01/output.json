@@ -1,0 +1,51 @@
+[
+	{
+		"vulnerability": "Printing insecure data - implicit",
+        "source": "$_GET",
+        "sink": "echo",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+	},
+	{ 
+        "vulnerability": "Printing insecure data - implicit",
+        "source": "$_GET",
+        "sink": "print",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+	{ 
+        "vulnerability": "Printing insecure data - implicit",
+        "source": "$x",
+        "sink": "echo",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+	{ 
+        "vulnerability": "Printing insecure data - implicit",
+        "source": "$y",
+        "sink": "echo",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+	{ 
+        "vulnerability": "Printing insecure data - not implicit",
+        "source": "$_GET",
+        "sink": "print",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+	{ 
+        "vulnerability": "Printing insecure data - not implicit",
+        "source": "$x",
+        "sink": "echo",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+	{ 
+        "vulnerability": "Printing insecure data - not implicit",
+        "source": "$y",
+        "sink": "echo",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

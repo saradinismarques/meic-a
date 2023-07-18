@@ -1,0 +1,23 @@
+[
+    {
+        "vulnerability": "ElseIfs - not implicit",
+        "source": "$a",
+        "sink": "$b",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Else - implicit",
+        "source": "$a",
+        "sink": "$c",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Else - implicit",
+        "source": "$b",
+        "sink": "$c",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]

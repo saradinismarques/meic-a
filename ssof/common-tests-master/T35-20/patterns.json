@@ -1,0 +1,9 @@
+
+[
+    {   "vulnerability": "AAA",
+        "sinks": ["sink"], 
+        "sources": [],
+         "sanitizers": [],
+         "implicit": "yes" 
+    }
+] 

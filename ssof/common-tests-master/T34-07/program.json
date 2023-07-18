@@ -1,0 +1,147 @@
+[
+    {
+        "nodeType": "Stmt_While",
+        "attributes": {
+            "startLine": 3,
+            "endLine": 11
+        },
+        "cond": {
+            "nodeType": "Expr_Variable",
+            "attributes": {
+                "startLine": 3,
+                "endLine": 3
+            },
+            "name": "source1"
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "attributes": {
+                    "startLine": 4,
+                    "endLine": 4
+                },
+                "expr": {
+                    "nodeType": "Expr_FuncCall",
+                    "attributes": {
+                        "startLine": 4,
+                        "endLine": 4
+                    },
+                    "name": {
+                        "nodeType": "Name",
+                        "attributes": {
+                            "startLine": 4,
+                            "endLine": 4
+                        },
+                        "parts": [
+                            "sink1"
+                        ]
+                    },
+                    "args": []
+                }
+            },
+            {
+                "nodeType": "Stmt_While",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 10
+                },
+                "cond": {
+                    "nodeType": "Expr_Variable",
+                    "attributes": {
+                        "startLine": 5,
+                        "endLine": 5
+                    },
+                    "name": "source2"
+                },
+                "stmts": [
+                    {
+                        "nodeType": "Stmt_Expression",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "expr": {
+                            "nodeType": "Expr_FuncCall",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6
+                            },
+                            "name": {
+                                "nodeType": "Name",
+                                "attributes": {
+                                    "startLine": 6,
+                                    "endLine": 6
+                                },
+                                "parts": [
+                                    "sink2"
+                                ]
+                            },
+                            "args": []
+                        }
+                    },
+                    {
+                        "nodeType": "Stmt_While",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 9
+                        },
+                        "cond": {
+                            "nodeType": "Expr_Variable",
+                            "attributes": {
+                                "startLine": 7,
+                                "endLine": 7
+                            },
+                            "name": "source3"
+                        },
+                        "stmts": [
+                            {
+                                "nodeType": "Stmt_Expression",
+                                "attributes": {
+                                    "startLine": 8,
+                                    "endLine": 8
+                                },
+                                "expr": {
+                                    "nodeType": "Expr_FuncCall",
+                                    "attributes": {
+                                        "startLine": 8,
+                                        "endLine": 8
+                                    },
+                                    "name": {
+                                        "nodeType": "Name",
+                                        "attributes": {
+                                            "startLine": 8,
+                                            "endLine": 8
+                                        },
+                                        "parts": [
+                                            "sink3"
+                                        ]
+                                    },
+                                    "args": []
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "nodeType": "Stmt_Nop",
+        "attributes": {
+            "startLine": 14,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/\/ implicit flows in nested whiles",
+                    "line": 13,
+                    "filePos": 182,
+                    "tokenPos": 43,
+                    "endLine": 13,
+                    "endFilePos": 215,
+                    "endTokenPos": 43
+                }
+            ],
+            "endLine": 14
+        }
+    }
+]

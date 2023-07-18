@@ -1,0 +1,23 @@
+[
+    {
+        "vulnerability": "Break/Continue should prevent statements execution",
+        "source": "$source4",
+        "sink": "sink3",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Break/Continue should prevent statements execution",
+        "source": "$source5",
+        "sink": "sink5",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    },
+    {
+        "vulnerability": "Break/Continue should prevent statements execution",
+        "source": "$source1",
+        "sink": "sink1",
+        "unsanitized flows": "yes",
+        "sanitized flows": []
+    }
+]
