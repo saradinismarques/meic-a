@@ -1,0 +1,10 @@
+sara@MSI:~/ssof/lab3$ gcc testuid.c -o testuid
+sara@MSI:~/ssof/lab3$ ./testuid
+Real UID: 1000 Effective UID: 1000
+Real UID: 1000 Effective UID: 1000
+sara@MSI:~/ssof/lab3$ sudo chown root testuid
+[sudo] password for sara:
+sara@MSI:~/ssof/lab3$ sudo chmod u+s testuid
+sara@MSI:~/ssof/lab3$ ./testuid
+Real UID: 1000 Effective UID: 0
+Real UID: 1000 Effective UID: 1000

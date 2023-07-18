@@ -1,0 +1,34 @@
+sara@MSI:~/ssof/lab3$ ./access filetest.txt
+OK  access READ to file filetest.txt
+OK  access WRITE to file filetest.txt
+OK  open for READING from file filetest.txt
+OK  open for WRITING to file filetest.txt
+sara@MSI:~/ssof/lab3$ ./access /etc/passwd
+OK  access READ to file /etc/passwd
+NOK access WRITE to file /etc/passwd
+OK  open for READING from file /etc/passwd
+NOK open for WRITING to file /etc/passwd
+sara@MSI:~/ssof/lab3$ ./access /etc/shadow
+NOK access READ to file /etc/shadow
+NOK access WRITE to file /etc/shadow
+NOK open for READING from file /etc/shadow
+NOK open for WRITING to file /etc/shadow
+
+
+sara@MSI:~/ssof/lab3$ sudo chown root access
+sara@MSI:~/ssof/lab3$ sudo chmod u+s access
+sara@MSI:~/ssof/lab3$ ./access filetest.txt
+OK  access READ to file filetest.txt
+OK  access WRITE to file filetest.txt
+OK  open for READING from file filetest.txt
+OK  open for WRITING to file filetest.txt
+sara@MSI:~/ssof/lab3$ ./access /etc/passwd
+OK  access READ to file /etc/passwd
+NOK access WRITE to file /etc/passwd
+OK  open for READING from file /etc/passwd
+OK  open for WRITING to file /etc/passwd
+sara@MSI:~/ssof/lab3$ ./access /etc/shadow
+NOK access READ to file /etc/shadow
+NOK access WRITE to file /etc/shadow
+OK  open for READING from file /etc/shadow
+OK  open for WRITING to file /etc/shadow
